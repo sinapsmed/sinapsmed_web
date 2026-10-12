@@ -1,0 +1,932 @@
+{
+    "forgetPassword": {
+        "title": "Şifrə Sıfırlama",
+        "info": "Zəhmət olmasa, şifrənizi sıfırlmaq üçün e-poçtunuzu daxil edin. Sıfırlama linki e-poçtunuza göndəriləcək.",
+        "email": "E-poçt ünvanınız",
+        "send": "Göndər"
+    },
+    "infoUTC":{
+        "title":"Bütün vaxtlar Azərbaycan standart vaxtı ilə göstərilmişdir."
+    },
+    "reset": {
+        "title": "Şifrəni Yeniləmə",
+        "pass": "Yeni Şifrə",
+        "confirm-pass": "Təkrar Yeni Şifrə",
+        "submit": "Yenilə"
+    },
+    "verify-email": {
+        "title": "Şifrəni Təyin Et",
+        "pass": "Yeni Şifrə",
+        "confirm-pass": "Təkrar Yeni Şifrə",
+        "submit": "Təsdiqlə"
+    },
+    "privacy": {
+        "header": "MƏXFİLİK SİYASƏTİ",
+        "intro": {
+            "altDesc": [
+                "Sizdən həmçinin, “sinapsmed.com” saytının xidmət şərtlərimiz haqqında ətraflı məlumatın əks olunduğu",
+                "İstifadəçi razılaşması",
+                "bölməsi ilə tanış olmağınızı xahiş edirik."
+            ],
+            "desc": "Sizin şəxsi məlumatlarınızın məxfiliyi və təhlükəsizliyi bizim üçün çox böyük əhəmiyyət kəsb etdiyindən, şəxsi məlumatlarınızın toplanması və idarə olunmasını yüksək ehtiyatlılıq dərəcəsi ilə həyata keçiririk. Biz onların təhlükəsizliyinin təmin edilməsi üçün müvafiq tədbirlər görürük. Burada Siz “sinapsmed.com” saytına daxil olarkən və təklif etdiyimiz xidmətlərdən istifadə edərkən şəxsi məlumatlarınızın “SİNAPSMED MMC” şirkəti tərəfindən emalı ilə bağlı əsas məlumatlarla tanış ola bilərsiniz.",
+            "header": "\"sinapsmed.com\" saytına xoş gəlmisiniz (bundan sonra \"sayt\")."
+        },
+        "last": {
+            "altDesc": [
+                "Alış-veriş zamanı müştərinin daxil etdiyi bank kartı məlumatları sayt yaxud satıcı tərəfindən saxlanılmır.",
+                "Qeyd olunan hallarda, tərəfinizdən xüsusi qaydada sorğu olunmuş xidmətlərin göstərilməsi üçün Sizin şəxsi məlumatlarınızın emalı Sizinlə bağlanmış Müqavilənin yerinə yetirilməsi çərçivəsində qanunidir.",
+                "Biz, həmçinin, istifadəçilərin saytla necə qarşılıqlı əlaqə qurduğunu anlamaq və təqdim etdiyimiz təkliflərimizi və xidmətlərimizi gələcəkdə daha da yaxşılaşdırmaq üçün statistik tədqiqatlar və məlumat təhlilini birgə aparırıq."
+            ],
+            "desc": "“SİNAPSMED” MMC şirkəti Sizin sifariş verərkən və məhsul alarkən bizə təqdim etdiyiniz şəxsi məlumatlarınızı, eləcə də “sinapsmed.com” saytında olduğunuz zaman nəzərdən keçirdiyiniz və ya istifadə etdiyiniz xidmətlər haqqında məlumatları emal edir. Beləliklə, sayt ad və soyad, çatdırılma və hesab ünvanı, saytda nəzərdən keçirdiyiniz məlumatlar və Sizin müştəri vərdişləriniz haqqında məlumatları toplaya bilər. Sizin şəxsi məlumatlarınız aşağıdakı məqsədlər üçün emal olunur:",
+            "header": "Hansı şəxsi məlumatlar emal olunur və nə üçün?",
+            "list": [
+                "\"sinapsmed.com\" saytında təklif olunan məhsullar üzrə alqı-satqı müqavilələrinin bağlanması və yerinə yetirilməsi;",
+                "\"sinapsmed.com\" saytında abunəlik kimi xidmətlərin göstərilməsi;",
+                "Saytda qeydiyyat və qeydiyyatdan keçmiş istifadəçilərə təqdim olunan xidmətlərdən istifadə;",
+                "Müştəri xidmətimizə yönləndirilmiş sorğulara nəzarət."
+            ]
+        },
+        "second": {
+            "desc": "Aşağıda sizin şəxsi məlumatlarınızın nəzarətçisi qismində çıxış edən Nizami rayonu C. Naxçvanski küç. 94 B, mən. 76, Bakı şəhəri., Аzərbaycan ünvanı üzrə qeydiyyatdan keçmiş, VÖEN: 1604962741 olan “SİNAPSMED” MMC şirkəti tərəfindən həyata keçirilən şəxsi məlumatlarınızın emalı üzrə əsas məlumatlar təqdim olunur.",
+            "header": "Şəxsi məlumatların nəzarətçisi kimdir?"
+        }
+    },
+    "dashboard": {
+        "analysis": {
+            "notfound": "Heç bir analiz tapılmadı!",
+            "analysis": "Analiz",
+            "productCode": "Sifariş Kodu",
+            "pending": "Gözlənir",
+            "patient": "Pasiyent",
+            "more": "Daha Çox",
+            "verified": "Təsdiqlənib",
+            "results": "Nəticələri Göstər",
+            "showOnMap": "Xəritədə göstər",
+            "price": "Qiymət",
+            "free": "ödənişsiz",
+            "date": "Tarix",
+            "clinic": "Klinika",
+            "close": "Bağla",
+            "getAnalysis": "Analiz Sifariş Ver",
+            "attachments": {
+                "empty":"Heç bir fayl əlavə edilməyib",
+                "view":"Görüntülə",
+                "label": "Əlavə Edilmiş Fayllar"
+            }
+        },
+        "appointment": {
+            "notfound": "Heç bir randevu tapılmadı!",
+            "free": "ödənişsiz",
+            "more": "Daha Çox",
+            "button": "Randevu Al",
+            "detail": {
+                "upcoming": "Gələn Seans",
+                "other": {
+                    "label": "Digər Məlumatlar",
+                    "service": "Xidmət",
+                    "status": "Ödəniş Statusu",
+                    "forWhom": "Randevu Götürdüm",
+                    "whatsapp": "Whatsapp Nömrəm"
+                },
+                "join": "Görüşə Qoşulun",
+                "meetWith": "{expert} ilə görüş",
+                "addCalendar": "Təqvimə Əlavə Edin",
+                "userDetails": "Pasiyent Məlumatları",
+                "note": "Vacib qeydlər",
+                "attachments": {
+                    "label": "Əlavə Edilmiş Fayllar",
+                    "empty": "Heç bir fayl əlavə edilməyib",
+                    "view": "Görüntülə"
+                }
+
+            }
+        },
+        "user": {
+            "settings": {
+                "changePass": "Parolun Dəyişdirilməsi",
+                "logout": "Çıxış",
+                "myAccount": "Mənim Hesabım"
+            },
+            "profile": {
+                "title": "Profilə düzəliş et",
+                "name": "Ad",
+                "surname": "Soyad",
+                "email": "E-poçt",
+                "birthDate": "Doğum tarixi",
+                "female": "Qadın",
+                "gender": "Cins",
+                "male": "Kişi",
+                "country": "Ölkə",
+                "city": "Şəhər",
+                "save": "Yadda Saxla",
+                "editPhone": {
+                    "phone": "Əlaqə Nömrəsi",
+                    "enterPhone": "Yeni nömrə daxil edin",
+                    "enterCode": "Kodu daxil edin",
+                    "sendCode": "Kod Göndər",
+                    "verify": "Təsdiqlə",
+                    "cancel": "Ləğv et"
+                }
+            },
+            "changePass": {
+                "title": "Şifrəni Dəyiş",
+                "oldPassword": "Hazırkı Şifrə",
+                "newPassword": "Yeni Şifrə",
+                "confirmPassword": "Təkrar Yeni Şifrə",
+                "update": "Şifrəni Yenilə"
+            }
+        },
+        "homePage": "Əsas Səhifə",
+        "cartPage": "Səbət",
+        "routes": [
+            {
+                "title": "Kabinetim"
+            },
+            {
+                "title": "Randevularım",
+                "subRoutes": [
+                    "Randevu Detalı"
+                ]
+            },
+            {
+                "title": "Analizlərim"
+            }
+            ,{
+                "title": "Bildirişlər"
+            },
+            {
+                "title": "Hesabım"
+            },
+            {
+                "title": "Parolun Dəyişdirilməsi"
+            }
+        ],
+        "home": {
+            "appointment": "Təyinat",
+            "applyFilter": "Filtrləri tətbiq edin",
+            "choose": {
+                "all": "Hamısı",
+                "expert": "Mütəxəssis Seçin",
+                "service": "Xidmət Seçin",
+                "status": "Status Seçin"
+            }
+        }
+    },
+    "metadata": {
+        "dashboard": {
+            "title": "Kabinetim",
+            "profile": {
+                "title": "Mənim Hesabım"
+            },
+            "changePass": {
+                "title": "Parolun Dəyişdirilməsi"
+            }
+        },
+        "appointment": {
+            "title": "Randevu Al"
+        },
+        "expert": {
+            "title": "Mütəxəssislər"
+        },
+        "auth": {
+            "login": {
+                "title": "Daxil Ol"
+            },
+            "register": {
+                "title": "Qeydiyyattan Keç"
+            },
+            "verify": {
+                "title": "Hesabı Təsdiqlə"
+            },
+            "forgotPassword": {
+                "title": "Şifrəni Unutmusunuz"
+            },
+            "reset": {
+                "title": "Şifrəni Sıfırla"
+            }
+        },
+        "about": {
+            "title": "Haqqımızda"
+        },
+        "cart": {
+            "title": "Səbət"
+        },
+        "agreement": {
+            "title": "İstifadəçi Razılaşması"
+        },
+        "analyses": {
+            "title": "Analizlər"
+        },
+        "contact": {
+            "desc": "Təklif və şikayətlərinizi bizə yazmaqdan çəkinməyin.",
+            "title": "Əlaqə"
+        },
+        "faq": {
+            "title": "Çox Soruşulan Suallar"
+        },
+        "general": {
+            "desc": "SİNAPSMED teletibb, onlayn həkim konsultasiyası, onlayn psixoterapiya və onlayn dietologiya xidmətləri ilə öz sahəsində ixtisaslaşmış, konsultant həkimlər, ixtisaslı psixoloqlar və dietoloqlar ilə məsləhət alıcılarını onlayn rabitə texnologiyaları vasitəsilə calaşdırır. Portalımız sayəsində siz yaşadığınız şəhərdən kənarda vəya ölkə hüdudlarından kənarda yaşayan mütəxəssis həkimlərin bilgi və təcrübələrindən faydalana və məkanınızın rahatlığını tərk etmədən psixoterapiya xidməti və dietoloq məsləhəti ala bilərsiniz. Sinapsmed portalı yalnız dünya standartlarında təhsil alaraq yetişmiş, təcrübəli və öz işinin əhli olan mütəxəssis həkimlər, konsultant həkimlər, psixoloq və dietoloqlar ilə əməkdaşlıq edir və sizinlə calaşdırır.",
+            "title": {
+                "default": "Sinapsmed-Teletibb | Tibbin gələcəyini inşa edirik!",
+                "template": "Sinapsmed-Teletibb"
+            }
+        },
+        "notFound": {
+            "desc": "Axtardığınız səhifə tapılmadı. Silinmiş və ya köçürülmüş ola bilər.",
+            "goBack": "Əsas Səhifəyə Qayıt",
+            "title": "Səhifə Tapılmadı"
+        },
+        "privacy": {
+            "title": "Məxfilik Siyasəti"
+        },
+        "checkout": {
+            "title": "Sifariş Xülasəsi"
+        }
+    },
+    "contact": {
+        "callUs": "Whatsapp'la əlaqəyə keç",
+        "desc": "Təklif və şikayətlərinizi bizə yazmaqdan çəkinməyin. Vacib xanalar işarələnib *",
+        "email": "E-poçt",
+        "form": {
+            "email": "E-poçt ünvanınız",
+            "fullname": "Ad, Soyad",
+            "header": "Mesaj Göndər",
+            "message": "Mesajınız...",
+            "submit": "Göndər"
+        },
+        "header": "Bizimlə əlaqə saxlayın",
+        "location": {
+            "desc": "Bakı, Azərbaycan",
+            "header": "Ünvan"
+        }
+    },
+    "login": {
+        "ask": {
+            "link": "Hesab yaradın",
+            "question": "Hesabınız yoxdur?"
+        },
+        "email": "E-poçt",
+        "forget": "Şifrənizi unutmusuzunuz?",
+        "login": "Daxil Ol",
+        "password": "Şifrə"
+    },
+    "register": {
+        "ask": {
+            "link": "Daxil olun",
+            "question": "Artıq hesabınız var?"
+        },
+        "email": "E-poçt",
+        "female": "Qadın",
+        "gender": "Cins",
+        "male": "Kişi",
+        "name": "Ad",
+        "phone": "Əlaqə Nömrəsi",
+        "title": "Qeydiyattan Keç",
+        "register": "SMS Kodu Göndər",
+        "password": "Şifrə",
+        "confirmPassword":"Təkrar Yeni Şifrə",
+        "surname": "Soyad",
+        "warning": [
+            "Qeydiyyat tamamlandıqdan sonra 6 rəqəmli təsdiqləmə kodu SMS olaraq göndəriləcəkdir.",
+            "Nömrənizi təsdiqlədikdən sonra e-poçtunuza hesab təsdiqləmə linki göndəriləcəkdir."
+        ]
+    },
+    "verify": {
+        "title": "Hesabı Təsdiqlə",
+        "verify": "Təsdiqlə",
+        "tryAgain": "Yenidən Göndər"
+    },
+    "home": {
+        "sections": {
+            "define": {
+                "content": {
+                    "left": [
+                        "Sinapsmed onlayn tibbi məsləhət, teletibb və onlayn psixoterapiya xidmətləri təqdim edən portaldır.",
+                        "SİNAPSMED teletibb, onlayn həkim konsultasiyası, onlayn psixoterapiya və onlayn dietologiya xidmətləri ilə öz sahəsində ixtisaslaşmış, konsultant həkimlər, ixtisaslı psixoloqlar və dietoloqlar ilə məsləhət alıcılarını onlayn rabitə texnologiyaları vasitəsilə calaşdırır. Portalımız sayəsində siz yaşadığınız şəhərdən kənarda vəya ölkə hüdudlarından kənarda yaşayan mütəxəssis həkimlərin bilgi və təcrübələrindən faydalana və məkanınızın rahatlığını tərk etmədən psixoterapiya xidməti və dietoloq məsləhəti ala bilərsiniz. Sinapsmed portalı yalnız dünya standartlarında təhsil alaraq yetişmiş, təcrübəli və öz işinin əhli olan mütəxəssis həkimlər, konsultant həkimlər, psixoloq və dietoloqlar ilə əməkdaşlıq edir və sizinlə calaşdırır."
+                    ],
+                    "right": [
+                        {
+                            "header": "Növbəsiz qəbul",
+                            "content": "Siz, Sinapsmed vasitəsi ilə yola və növbəyə zaman sərf etmirsiniz. Siz sadəcə evinizdə əyləşərək onlayn formada müayinədən keçirsiniz. Klinikaya gedib-gəlmək üçün əlavə zaman sərfinə ehtiyac yoxdur"
+                        },
+                        {
+                            "header": "Körpəli anaların dostu",
+                            "content": "Sinapsmedlə, körpənizlə klinikaya getdikdə, onun yemək və yuxu saatında ağlaması kimi bir durumları yaşamayacaqsınız"
+                        }
+                    ]
+                },
+                "label": "Sinapsmed Nədir?"
+            },
+            "experts": {
+                "label": "Mütəxəssislərimiz"
+            },
+            "faq": {
+                "desc": {
+                    "contact": "bizimlə əlaqə",
+                    "end": " saxlayın.",
+                    "start": "Yenə sualınız olarsa, "
+                },
+                "label": [
+                    "Sualınız Var?",
+                    "Ç.S.S Bölməsinə Baxın."
+                ]
+            },
+            "guide": {
+                "content": [
+                    {
+                        "header": "Həkimini seç",
+                        "desc": "Qəbula yazıl düyməsini basaraq, həkimini seç"
+                    },
+                    {
+                        "header": "Vaxt təyin et",
+                        "desc": "Sənə uyğun tarixi və saatı seç"
+                    },
+                    {
+                        "header": "Ödəniş et",
+                        "desc": "Ödəniş metodları arasından sənə uyğun olan nağd, onlayn və ya ödəmə terminalları ilə ödənişi tamamla."
+                    },
+                    {
+                        "header": "Müayinə ol",
+                        "desc": "Görüntülü zəng vasitəsilə həkiminiz sizi müayinə edib, sağlamlığınızı nəzarətə götürəcək."
+                    }
+                ],
+                "label": "Necə İşləyir?"
+            },
+            "partner": {
+                "label": "Partnyorlar"
+            }
+        }
+    },
+    "common": {
+        "buttonLinks": {
+            "appointment": "Onlayn randevu al",
+            "gotoPanel": "Panelə keç",
+            "login": "Daxil ol"
+        },
+        "footer": {
+            "contactInfo": "Əlaqə məlumatları",
+            "links": {
+                "faq": "Çox Soruşulan Suallar",
+                "privacy": "Məxfilik siyasəti",
+                "user_agreement": "İstifadəçi razılaşması"
+            },
+            "location": "Bakı, Azərbaycan",
+            "otherLinks": "Digər Keçidlər",
+            "slogan": "Tibbin gələcəyini inşa edirik!"
+        },
+        "navbar": {
+            "dashboard": "Kabinetim",
+            "home": "Əsas Səhifə",
+            "routes": [
+                "Haqqımızda",
+                "Xidmətlər",
+                "Analizlər",
+                "Mütəxəssislər",
+                "Bloq",
+                "Əlaqə",
+                "Səbət"
+            ],
+            "signin": "Daxil Ol"
+        },
+        "more": "Daha Çox"
+    },
+    "date": {
+        "reply": {
+            "show": "{count} şərhi göstər",
+            "show_plural": "{count} şərhi göstər",
+            "hide": "Şərhləri gizlə",
+            "showAll": "Şərhləri göstər"
+        },
+        "ago": "əvvəl",
+        "months": [
+            "Yanvar",
+            "Fevral",
+            "Mart",
+            "Aprel",
+            "May",
+            "İyun",
+            "İyul",
+            "Avqust",
+            "Sentyabr",
+            "Oktyabr",
+            "Noyabr",
+            "Dekabr"
+        ],
+        "periods": {
+            "sec": "{count} saniyə",
+            "sec_plural": "{count} saniyə",
+            "min": "{count} dəqiqə",
+            "min_plural": "{count} dəqiqə",
+            "hour": "{count} saat",
+            "hour_plural": "{count} saat",
+            "day": "{count} gün",
+            "day_plural": "{count} gün",
+            "month": "{count} ay",
+            "month_plural": "{count} ay",
+            "year": "{count} il",
+            "year_plural": "{count} il"
+        },
+        "now": "indi"
+    },
+    "form": {
+        "validation": {
+            "email": "\"{name}\" boş ola bilməz! ",
+            "misMatch": "\"{name}\" düzgün formatda deyil! ",
+            "password": "\"{name}\" boş ola bilməz! ",
+            "radio": "Bir \"{name}\" seçilməlidir!",
+            "text": "\"{name}\" boş ola bilməz! "
+        }
+    },
+    "blog": {
+        "readMore": "Ardını oxu",
+        "comment": {
+            "status": {
+                "pending": "Gözlənir",
+                "verified": "Təsdiqlənib",
+                "rejected": "Rədd Edildi"
+            },
+            "cancel": "Ləğv et",
+            "placeholder": "Şərh əlavə et",
+            "send": "Göndər",
+            "title": "Şərh",
+            "login": "daxil ol",
+            "info": "Rəy bildirmək üçün ilk növbədə",
+            "open": "şərhi göstər",
+            "close": "Şərhləri gizlə"
+        }
+    },
+    "agreement": {
+        "article10": {
+            "laws": [
+                "10 (ON) maddədən və 1 əlavədən ibarət olan bu müqavilə ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ)  tərəfindən elektron mühitdə oxunaraq təsdiq olunmaqla əqdolunmuş və xidmət qarşılığının ödənməsi ilə dərhal qüvvəyə minmiş sayılır."
+            ],
+            "title": "QÜVVƏYƏ MİNMƏ"
+        },
+        "article1": {
+            "firstArticle": {
+                "desc": "Bu müqavilənin tərəfləri aşağıdakı kimidir:",
+                "laws": [
+                    "Xidmət təqdimedən (Mütəxəssis həkim və ya Konsultant həkim və ya Psixoloq və ya Dietoloq və ya Laborator analizi icra edən qurum)",
+                    "Alıcı (MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ)"
+                ],
+                "thirdLaw": "Satıcı- vasitəçi : SİNAPSMED MMC (Elektron poçt: "
+            },
+            "secondArticle": {
+                "desc": "Bu müqavilə Alıcı (MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) `nin onlayn platformlar vasitəsilə təqdim olunan tibbi məsləhət  və ya analiz xidməti satın almasında tərəflərin qarşılıqlı hüquqlarını ve öhdəliklərini tənzimləyir.",
+                "laws": [
+                    "SİNAPSMED MMC tərəfindən təqdim edilən tibbi konsultasiya xidməti Azərbaycan Respublikasının Səhiyyə Nazirliyi tərəfindən təqdim olunan HƏR HANSI BİR TİBBİ XİDMƏTƏ ƏVƏZEDİCİ SAYILA BİLMƏZ.",
+                    "Azərbaycan Respublikası ərazisində müalicə və profilaktika işlərinin təşkil olunması yalnız Səhiyyə Nazirliyinin və sertifikasiya etdiyi qurum və şəxslərin səlahiyyətindədir.",
+                    "Xidmətlər paketi xəstə və həkimin bir yerdə olmasını labüd edən hallarda ənənəvi tibbi muayinənin əvəzi sayilabilməz.",
+                    "Xəstəliklərin tibbi diaqnozu və müalicəsi üçün həkimə bilavasitə müraciət edilməsi lazım olan vəziyyətlərdə və təcili vəziyyətlərdə vaxt itirmədən yaşadığınız yerin təcili tibbi yardım nömrəsinə zəng edilməlidir.",
+                    "Həkim tərəfindən onlayn görüş nəticəsində məsləhət alıcısına tövsiyyə olunan dərman preparat(lar)I resept yerinə keçə bilməz, dərman istifadəsini uyğun edən reseptlər yalnız Azərbaycan Respublikasının Səhiyyə Nazirliyi tərəfindən sertifikasiya edilən qurumlarda xidmət göstərən həkimlər tərəfindən yazılabilər.",
+                    "Alıcı (və/və ya MƏSLƏHƏT ALICISI və/vəya XİDMƏT İSTİFADƏÇİSİ) bu mövzularda bu müqavilənin əlavəsində təqdim olunan “İSTİFADƏÇİ MƏLUMATLANDIRMASI VƏ RAZILIQ MÜQAVİLƏSİ” vasitəsi ilə detallı olaraq məlumatlandırılmış ve razılığı alınmışdır."
+                ]
+            },
+            "title": "TƏRƏFLƏR VƏ MÖVZU"
+        },
+        "article2": {
+            "laws": [
+                "Bu müqavilənin müddəti Alıcı (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ)` nin öncədən təyin olunan məbləği ödəməsi ilə birgə tərəflərin qarşılıqlı hüquq və öhdəlikləri ilə başlayır, onlayn platformlarla müəyyən olunan randevu tarixində müqavilənin mövzusunu təşkil edən xidmətin mütəxəssis və ya konsultant həkim və ya psixoloq və ya dietoloq tərəfindən verilməsi ilə sona çatır."
+            ],
+            "title": "MÜQAVİLƏNİN MÜDDƏTİ"
+        },
+        "article3": {
+            "desc": "Bu müqavilədə bəhs olunan xidmətlər qarşılığında alınacaq məbləğin miqdarı Alıcı`ya (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ)  bildirilən miqdar qədərdir və xidmətin satın alındığı internet portalında (www.sinapsmed.com) yerləşdirilmişdir.",
+            "title": "MÜQAVİLƏNİN QİYMƏTİ"
+        },
+        "article4": {
+            "laws": [
+                "Xidmətlər paketi MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ`nə seçdiyi xidmətə uyğun olaraq mütəxəssis həkim və ya konsultant həkim və ya psixoloq və ya dietoloq ilə müvafiq mövzularda məsləhət alma imkanı təqdim edəcəkdir.",
+                "ALICI’nın onlayn olaraq satın aldığı xidmət paketinə dair randevu detalları ALICI`nın qeydiyyatdan keçərkən bildirdiyi elektron poçt ünvanına göndəriləcəkdir.",
+                "Konsultasiya xidmətinin təqdim edilmə vaxtı ALICININ randevu tarixi olaraq seçdiyi vaxtdır.",
+                "Həkimlər ilə görüşlərin müddəti həkimin gərək gördüyü qədər olmaqla yanaşı maksimum 30(OTUZ) dəqiqədir.",
+                "HƏKİM XİDMƏT İSTİFADƏÇİSİNƏ müxtəlif test (analiz) və ya radioloji müayinələrdən keçməsini tövsiyyə edə bilər. Bu testlər alınan xidmətə daxil deyil və XİDMƏT İSTİFADƏÇİSİ üçün 3. tərəf qurumlarda ödəniş etməklə gerçəkləşdirilə bilər və ya sinapsmed.com portalında ödəniş edilərək Sinapsmed MMC ilə anlaşması olan 3. tərəf qurumlarda icra edilə bilər.",
+                "Həkim testlərin cavabına baxmaq üçün onlayn görüşmə və ya məktublaşma-zəngləşmə üsulunu seçəbilər. Bunlar tamamən dietoloqun qərarından asılıdır.",
+                "MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ`nin randevu bitişindən başlayaraq test və analiz cavablarını göstərmək üçün 10 (ON) gün ərzində həkimlə ödənişsiz təkrari görüşmək haqqı vardır. Bu görüşlərin vacibliyinə və sayına HƏKİM tərəfindən qərar verilir. Təkrari görüş SİNAPSMED idarə komandası tərəfindən təşkil olunaraq randevu tarixi sizə bildiriləcəkdir.",
+                "Randevu bitimindən etibarən 10 (ON) günü aşan zaman dilimində MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ HƏKİMLƏ təkrarən görüşmək istəyərsə, əvvəlki qaydada qeydiyyatdan keçərək ödəniş etməli və randevu almalıdır.",
+                "Dietoloq ilə görüşlərin müddəti dietoloqun gərək gördüyü qədər olmaqla yanaşı maksimum 30(OTUZ) dəqiqədir.",
+                "Dietoloq XİDMƏT İSTİFADƏÇİSİNƏ müxtəlif test (analiz) və ya radioloji müayinələrdən keçməsini tövsiyyə edə bilər. Bu testlər alınan xidmətə daxil deyil və XİDMƏT İSTİFADƏÇİSİ üçün 3. tərəf qurumlarda ödəniş etməklə gerçəkləşdirilə bilər və ya sinapsmed.com portalında ödəniş edilərək Sinapsmed MMC ilə anlaşması olan 3. tərəf qurumlarda icra edilə bilər.",
+                "Dietoloq testlərin cavabına baxmaq üçün onlayn görüşmə və ya məktublaşma-zəngləşmə üsulunu seçəbilər. Bunlar tamamən dietoloqun qərarından asılıdır.",
+                "MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ`nin randevu bitişindən başlayaraq test və analiz cavablarını göstərmək üçün 10 (ON) gün ərzində dietoloq ilə ödənişsiz təkrari görüşmək haqqı vardır. Bu görüşlərin vacibliyinə və sayına DİETOLOQ tərəfindən qərar verilir. Təkrari görüş SİNAPSMED idarə komandası tərəfindən təşkil olunaraq randevu tarixi sizə bildiriləcəkdir.",
+                "Randevu bitimindən etibarən 10 (ON) günü aşan zaman dilimində MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ DİETOLOQ ilə təkrarən görüşmək istəyərsə, əvvəlki qaydada qeydiyyatdan keçərək ödəniş etməli və randevu almalıdır.",
+                "Psixoloq görüşlərində randevu alınan seansların hər birinin müddəti 45 (QIRXBEŞ) dəqiqədir.",
+                "MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ psixoloq ilə seans xaricində email vasitəsi ilə əlaqə yarada bilər, lakin psixoloqun bu emaillərə cavab yazmaq öhdəliyi yoxdur.",
+                "Randevunun həyata keçirilməsi ilə əlaqədar gecikmələrin yaşanması durumlarında ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) SİNAPSMED idarə komandası tərəfindən məlumatlandırılacaq və randevu tarixinin dəyişdirilməsi və ya ödənilmiş bütün məbləğin göndərənə geri qaytarılması seçimləri təqdim olunacaqdır.",
+                "Hərhansı bir səbəbdən xidmət qarşılığı ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) tərəfindən ödənilməzsə və ya bank tərəfindən ləğv olunarsa XİDMƏT TƏQDİMEDƏN xidmət paketini təqdim etmək öhdəliyindən, SİNAPSMED MMC isə vasitəçilik öhdəliyindən azad olmuş hesab olunur.",
+                "Bu müqavilə  ALICI’nın portaldakı randevu alma səhifəsində yerləşən və yanında DİSTANT SATIŞ MÜQAVİLƏSİNƏ əlavə olaraq “İSTİFADƏÇİ MƏLUMATLANDIRMASI VƏ RAZILIQ MÜQAVİLƏSİ”nin də oxunaqlı formada görüntülənəbiləcəyi bir linkin də yerləşdirildiyi TƏSDİQLƏMƏ qutusunu işarələməsi ilə qüvvəyə minmiş olur; randevu vaxtında ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ)`nə XİDMƏT  TƏQDİMEDƏN tərəfindən onlayn mühitdə xidmətin təqdim olunması ilə yerinə yetirilmiş olur."
+            ],
+            "title": "MÜQAVİLƏ MÖVZUSUNUN ƏSAS XÜSUSİYYƏTLƏRİ :"
+        },
+        "article5": {
+            "laws": [
+                "ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) xidmət paketinin xüsusiyyətləri, qiyməti və ödəmə üsulu ilə bağlı Satıcı (SİNAPSMED  portalı) tərəfindən onlayn qaydada təqdim olunan məlumatları oxuduğunu, anladığını, tam olaraq məlumatlandırıldığını, bilgiləndiyini və elektronik mühitdə təsdiqlədiyini bəyan edir.",
+                "ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ)  seçmiş olduğu xidmət paketinin həyata keçirilə bilməsi üçün SİNAPSMED.COM portalına qeydiyyat zamanı təqdim etdiyi şəxsi məlumatların və həkim tərəfindən görüş zamanı alınan şəxsi sayılan tibbi xarakterli məlumatlarının tibbi və elmi araşdırmalarda istifadə, həmçinin, portal tərəfindən təqdim olunan xidmətlərin inkişaf etdirilməsi məqsədilə məhdud olmaq şərtilə qeydə alınmasına, işlənməsinə və saxlanmasına açıq şəkildə razılıq verir.",
+                "HƏKİM tərəfindən hər bir PASİYENT (XƏSTƏ) üçün xəstənin adı, soyadı, ata adı, doğum tarixi və yeri, yaşadığı unvan, şəxsiyyət vəsiqəsinin nömrəsi də daxil olmaqla tibbi/qeyri-tibbi lazımi məlumatlar daxil edilərək xəstəlik tarixi hazırlama və həkimin şəxsi arxivində saxlama hüququ vardır. Həkim randevu sonrası hazırlanmış həmin xəstəlik tarixini SİNAPSMED portalına ötürəcəkdir, bu məlumatlar SİNAPSMED portalı tərəfindən işlənərək portalın provayderlərində arxivlənəcəkdir.",
+                "Psixoloq tərəfindən də 3-cü bənddə yazıldığı kimi məlumatların toplanması və saxlanması hüququ vardır, lakin bu məlumatlar HEÇ BİR HALDA SİNAPSMED portalı tərəfindən TƏLƏB EDİLMİR. SİNAPSMED portalı sadəcə qeydiyyat zamanı daxil edilən bütün məlumatları qeydə almaq, işləmək və saxlamaq hüququna malikdir.",
+                "Alıcı (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) tələb və şikayətlərini Satıcı`ya (SİNAPSMED portalı) info@sinapsmed.com ilə çatdırabilər. ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) bu tələb və şikayətləri mümkün olan ən qısa müddətdə qiymətləndirərək ALICI’ya (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) randevu üçün qeydiyyatdan keçərkən bildirdiyi əlaqə vasitələri üzərindən cavab verəcəkdir.",
+                "Hərhansı bir səbəbdən xidmət qarşılığı ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) tərəfindən ödənilməzsə və ya bank tərəfindən ləğv olunarsa XİDMƏT TƏQDİMEDƏN xidmət paketini təqdim etmək öhdəliyindən, SİNAPSMED portalı isə vasitəçilik öhdəliyindən azad olmuş hesab olunur.",
+                "Randevu vaxtında görüntülü, səsli və ya mesajlaşma yolu ilə gerçəkləşdiriləcək görüşdə MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ`nin iştirak etməməsi kimi hallarda ödənilən məbləğin Satıcı (SİNAPSMED MMC) tərəfindən qaytarılması öhdəliyi yoxdur.",
+                "Bu müqavilə ALICI’nın portaldakı randevu alma səhifəsində yerləşən və yanında DİSTANT SATIŞ MÜQAVİLƏSİNƏ əlavə olaraq “İSTİFADƏÇİ MƏLUMATLANDIRMASI VƏ RAZILIQ MÜQAVİLƏSİ”nin də oxunaqlı formada görüntülənə biləcəyi bir linkin də yerləşdirildiyi TƏSDİQLƏMƏ qutusunu işarələməsi ilə MADDƏ-1`də bildirilən tərəflər üçün qüvvəyə minmiş olur; randevu vaxtında ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ)`nə XİDMƏT TƏQDİMEDƏN tərəfindən onlayn mühitdə xidmətin təqdim olunması ilə yerinə yetirilmiş olur.",
+                "ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) bu müqaviləni onlayn/elektronik mühitdə təsdiq etməklə XİDMƏT TƏQDİMEDƏN tərəfindən təqdim olunan konsultasiya xidməti haqqında tam və düzgün olaraq məlumat aldığını təsdiqləmiş olur.",
+                "SİNAPSMED portalı ALICI`ya (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) heç bir xəbərdarlıq etmədən bu müqavilələrin mətnində gələcəkdə düzəlişlər etmək və ya dəyişdirmək hüququnu özündə saxlayır."
+            ],
+            "title": "ALICININ (VƏ/VƏ YA MƏSLƏHƏT ALICISI VƏ/VƏYA XİDMƏT İSTİFADƏÇİSİ)  BƏYAN VƏ ÖHDƏLİKLƏRİ"
+        },
+        "article6": {
+            "laws": [
+                "Bu müqavilə nəzdində tərəflər arasındakı hər növ yazışma, icbari hallar istisna olmaqla, ALICI `nın (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) bəyan etdiyi elektron poçt adresi və mobil operator və ya “Whatsapp” əlaqə nömrəsi üzərindən gerçəkləşdiriləcəkdir.",
+                "Bu müqavilədən qaynaqlanması mümkün olan ixtilaflı hallarda XİDMƏT TƏQDİMEDƏN’in şəxsi, rəsmi qeydləri, öz məlumat bazası (ing. Database), provayderlərində saxladığı məlumatlar, habelə hazırladığı xəstəlik tarixi və kompyuter qeydləri bağlayıcı, dəqiq və xüsusi dəlil olaraq qəbul olunur. Bu maddə dəlil sözləşməsi olaraq qəbul edilir."
+            ],
+            "title": "BİLDİRİŞLƏR VƏ DƏLİL MÜQAVİLƏSİ"
+        },
+        "article7": {
+            "laws": [
+                "Distant məsləhətalma/konsultasiya xidməti şəxsidir. Konsultasiya xidməti üçün ödənilən məbləğ bir nəfərin istifadəsi üçün nəzərdə tutulmuşdur və istifadə haqqı 3-cü şəxslərə və/və ya qurumlara ötürüləbilməz.",
+                "Həm ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) həm də XİDMƏT TƏQDİMEDƏN tərəfindən görüşlərin səsli və ya görüntülü, həmçinin ekran görüntüsü şəklində nüsxələnməsi, saxlanılması və paylaşılması qadağandır!"
+            ],
+            "title": "TƏRƏFLƏRİN HÜQUQ VƏ VƏZİFƏLƏRİ"
+        },
+        "article8": {
+            "laws": [
+                "Elektron mühitdə vaxtında yərinə yetirilən və ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) ilə XİDMƏT TƏQDİMEDƏN arasında gerçəkləşən onlayn görüş üçün  ALICI  tərəfindən ödənilən məbləğin geri qaytarılması heç bir halda mümkün deyil."
+            ],
+            "otherLaws": [
+                "ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) randevu saatından 14 saat əvvələ qədər xidmət üçün etdiyi müraciəti",
+                "elektron poçt ünvanına xidmətdən imtina tələbi göndərərək cəzasız ləğv edə bilər. Ödənişi edilən randevuya 14 saatdan az qaldığı təqdirdə isə randevu üçün ödənilmiş məbləğdən 20 (iyirmi) faiz kəsir tutularaq ləğv edilə bilər. İmtina tələbindən sonrakı 48 saat ərzində verilən bank hesabı nömrəsinə müvafiq məbləğin geri qaytarılması prosesi başlayacaqdır."
+            ],
+            "title": "MÜQAVİLƏDƏN İMTİNA HÜQUQU"
+        },
+        "article9": {
+            "laws": [
+                "SİNAPSMED.COM onlayn tibbi məsləhət, teletibb, onlayn konsultasiya və onlayn psixoterapiya xidmətləri təqdim edən portaldır. SİNAPSMED.COM öz sahəsində ixtisaslaşmış həkimlər, konsultant həkimlər, dietoloqlar və ixtisaslı psixoloqlar ilə tibbi məsləhət alıcılarını onlayn rabitə texnologiyaları vasitəsilə calaşdırır.",
+                "SİNAPSMED MMC tərəfindən vasitəçilik edilən xidmətlərin gerşəkləşməsi nəticəsində yarana biləcək tibbi malpraktis, şəxsi məlumatların gizlinliyi hüququnun pozulması kimi hallarda SİNAPSMED MMC HEÇ BİR ŞƏKİLDƏ MƏSULİYYƏT DAŞIMIR VƏ GÜNAHLANDIRILA BİLMƏZ. Bu kimi neqativ halları XİDMƏT TƏQDİMEDƏN və MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ öz aralarında həll etməlidirlər.",
+                "Həkim tərəfindən onlayn görüş nəticəsində məsləhət alıcısına tövsiyyə olunan dərman preparat(lar)ı resept yerinə keçə bilməz, dərman istifadəsini uyğun edən reseptlər yalnız Azərbaycan Respublikasının Səhiyyə Nazirliyi tərəfindən sertifikasiya edilən qurumlarda xidmət göstərən həkimlər tərəfindən yazıla bilər.",
+                "Tövsiyyə olunan dərman preparatlarının əsas və əlavə təsirlərindən qaynaqlanabiləcək hər növ mənfi halın məsuliyyəti YALNIZCA MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ-ə aiddir və bu kimi hallarda nə XİDMƏT TƏQDİMEDƏN nə də SİNAPSMED MMC məsuliyyət daşımayacaqlar və heç bir halda günahlandırıla bilməzlər.",
+                "Bu müqavilədən irəli gələn və ya onunla bağlı istənilən mübahisə danışıqlar yolu ilə həll edilməlidir.",
+                "Tərəflər arasında yaranmış mübahisə və ixtilaflı hallar danışıqlar yolu ilə həll edilmədikdə, həmin mübahisələrə məhkəmələr yolu ilə baxılır.",
+                "Bu müqavilədən və müqavilənin tətbiq olunmasından qaynaqlanma ehtimalı olan hər növ ixtilaf halını həll etmək üçün sadəcə Azərbaycan Respublikası Bakı şəhəri inzibati məhkəmələrinə müraciət etmək ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ) tərəfindən qəbul və bəyan edilir və öhdəlik götürülür."
+            ],
+            "otherLaws": [
+                "Mövzusu müqavilədən qaynaqlanan hər cür təbliğat üçün ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ)  tərəfindən  qeydiyyatdan keçərkən bildirilən elektron poçt ünvanı  və",
+                "elektron poçt ünvanını qanuni əlaqə vasitəsi kimi qəbul və bəyan edir və öhdəlik götürürlər."
+            ],
+            "title": "TƏBLİĞAT VƏ İXTİLAF HALLARI"
+        },
+        "articleHeader": "Maddə {no}: {title}",
+        "header": "DİSTANT SATIŞ MÜQAVİLƏSİ",
+        "lastDesc": "Bu müqaviləyə razılıq verdiyim mərhələdə tərəfimə təqdim olunan bütün məlumatlandırma mətnlərini oxuduğumu, anladığımı və bu halı ilə qəbul etdiyimi, görüşün hansı formada gerçəkləşdiriləcəyi haqqında kifayət qədər məlumatlandırıldığımı və təqdim olunan xidmətdən bu bilgiləndirmələrə uyğun olaraq istifadə edəcəyimi qəbul və bəyan edirəm.   Bu sənəd ALICI (və/və ya MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ),  Xidmət təqdimedən (Mütəxəssis həkim və ya Konsultant həkim və ya Psixoloq və ya Dietoloq) , Satıcı- vasitəçi (SİNAPSMED MMC) arasında razılaşdırılaraq təsdiqlənir. ",
+        "otherArticle": {
+            "altTitle": "TƏRƏFİMƏ TƏQDİM OLUNAN TİBBİ MƏSLƏHƏTLƏŞMƏ VƏ KONSULTASİYA XİDMƏTİNİN ƏHATƏ DAİRƏSİ HAQQINDA  YAZILI OLARAQ VERİLƏN MƏLUMATA ƏSASƏN;",
+            "laws": [
+                "Onlayn xidmətlərdən istifadə edərək seçim etdiyim sahədə ixtisaslaşmış mütəxəssis həkim (və ya konsultant həkim və ya dietoloq və ya psixoloq) tərəfindən təqdim olunan xidmətin əhatə dairəsində sağlamlığım haqqında məsləhət alacağıma",
+                "Göstərilən xidmətin xəstə və həkimin bir yerdə olmasını labüd edən vəziyyətlərdə ənənəvi tibbi müayinəni əvəzləyə bilməyəcəyinə",
+                "Hər cür tibbi diaqnoz, müalicə və tibbi təqib kimi ehtiyaclar üçün müstəqil iradəmlə seçdiyim quruma və həkimə müraciət etməyimin və fiziki olaraq müayinə olmağımın vacib olduğuna",
+                "Sağlamlığımla əlaqəli olan və təcili müdaxiləni vacib edən durumlarla əlaqədar ən yaxın xəstəxanaya müraciət etməyim vəya yaşadığım yerdəki təcili tibbi yardım mərkəzi ilə əlaqə saxlamağım gərəkdiyinə",
+                "Əks təqdirdə yaşanabiləcək mənfi nəticələrdən xidmət təqdim edən mütəxəssis həkimin (və ya konsultant həkim vəya psixoloq və ya dietoloq), həmçinin SİNAPSMED MMC-nin heç bir halda məsuliyyət daşımayacağına və ya təqsirli göstərilə bilməyəcəyinə",
+                "Onlayn görüşün başlama zamanının, formatının (yazışmalı,səsli, görüntülü və ya video-audio-tekstual şəkildə), görüşmənin müddətinin, başlanan görüşmənin sonlandırılmasının və görüşmə ərzindəki bütün mövzularda son qərar səlahiyyətinin görüşmə halında olduğum həkim mütəxəssisə (və ya konsultant həkimə və ya psixoloqa və ya dietoloqa) aid olacağına",
+                "Onlayn görüş ərzində yanımda məndən başqa heçkimin olmayacağına, yanımda hərhansı şəxsin olması halında görüş halında olduğum həkim mütəxəssisə (və ya konsultant həkimə vəya psixoloqa və ya dietoloqa) məlumat vermək məcburiyyətində olduğuma",
+                "Texniki səbəblərdən dolayı görüşün kəsilmə ehtimalının olduğuna və ya faydalı olmama ehtimalına",
+                "Onlayn görüş ərzində həm MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ, həmçinin xidmət təqdim edən həkim-mütəxəssis (və ya konsultant həkim və ya psixoloq və ya dietoloq) tərəfindən videogörüntü, səs, yazılı və ya ekran görüntüsü alınmasının qadağan edildiyinə",
+                "Tibbi ehtiyac səbəbindən videogörüntü, səs,yazı və ya ekran görüntüsü şəklində məlumat saxlamaq lazım olduğu hallarda MƏSLƏHƏT ALICISI və/və ya XİDMƏT İSTİFADƏÇİSİ’nə öncədən xəbər vermək və şifahi razılığını almaq şərtilə yalnız XİDMƏT TƏQDİMEDƏN həkim-mütəxəssis’in (və ya konsultant həkim və ya psixoloq və ya dietoloq) bunu edəbiləcəyinə, MƏSLƏHƏT ALICISI və/vəya XİDMƏT İSTİFADƏÇİSİ’nin heç bir halda belə bir haqq iddia və ya tələb edəbilməyəcəyinə DAİR yazılı olaraq məlumatlandırıldım. Mövzu ilə əlaqədar əlavə məlumat almaq üçün əlaqə kanalları tərəfimə təqdim olunmuşdur."
+            ],
+            "title": "ƏLAVƏ İSTİFADƏÇİ MƏLUMATLANDIRMASI VƏ RAZILIQ MÜQAVİLƏSİ"
+        }
+    },
+    "cart": {
+        "bar": {
+            "count": "Məhsul Sayı",
+            "coupon": {
+                "apply": "Tətbiq et",
+                "desc": "Kupon kodunuzu daxil edərək endirimlərdən faydalanın",
+                "title": "Kupon Kodu",
+                "used": "kodu tətbiq edildi!"
+            },
+            "payment": {
+                "lastTotal": "Ümumi Cəm",
+                "total": "Məhsul Cəmi",
+                "discount": "Endirim",
+                "finish": "Sifarişi Tamamla"
+            },
+            "checkout": {
+                "title": "Sifariş Detalları",
+                "edit": "redaktə et",
+                "empty": "Sifariş üçün məhsul yoxdur!",
+                "goCheckout": "Ödəmə səhifəsinə keç",
+                "finishCheckout": "Sifarişi yekunlaşdır",
+                "info": {
+                    "first": "Sizin şəxsi məlumatlarınız sifarişinizi emal etmək, bu veb-saytda təcrübənizi dəstəkləmək və",
+                    "link": "gizlilik siyasətində ",
+                    "last": "təsvir olunan digər məqsədlər üçün istifadə olunacaq."
+                },
+                "verify": {
+                    "first": "Mən",
+                    "link": "şərtlər və qaydalarla ",
+                    "last": "tanış oldum, razıyam."
+                }
+            }
+        },
+        "empty": "Halhazırda səbətdə heç bir məhsul yoxdur",
+        "analysis": "Analizlərə Keç",
+        "appointment": "Randevu Al",
+        "list": {
+            "types": [
+                "Analizlər",
+                "Randevular"
+            ],
+            "table": {
+                "name": "Məhsulun adı",
+                "price": "Qiymət",
+                "remove": "Sil"
+            },
+            "warning": "Səbətdə qalan randevular 15 dəqiqə, analizlər isə 15 gündən sonra silinir"
+        }
+    },
+    "analyses": {
+        "notfound": "Axtarışa uyğun analiz yoxdur",
+        "category": "Kateqoriya Seç",
+        "filter": {
+            "notfound": "Seçiminizə uyğun analiz qurumu tapılmadı",
+            "gotoLocation": "Ən yaxın analiz qurumunu tap",
+            "by": {
+                "city": "Şəhərə Görə",
+                "clinic": "Klinikaya Görə",
+                "location": "Məkana Görə"
+            },
+            "map": {
+                "error": "Axtardığınız yer tapılmadı",
+                "search": {
+                    "button": "Axtar",
+                    "input": "Məkan daxil edin"
+                }
+            },
+            "stepper": {
+                "city": "Şəhər Seç\n",
+                "clinic": "Klinika Seç",
+                "location": "Məkan Seç",
+                "method": "Metod Seç",
+                "next": "Növbəti",
+                "partner": "Qurum Seç",
+                "prev": "Əvvəlki",
+                "region": "Rayon Seç",
+                "skip": "Keç",
+                "village": "Son Ünvan Seç",
+                "finish": "Tamamla"
+            },
+            "choose": "Seç",
+            "chosen": "Seçildi",
+            "title": "Analizləri filtrləmək üçün bir metod seçin",
+            "far": "uzaqlıqda"
+        },
+        "guide": "Analiz qurumu dəyişdirildikdən sonra daha əvvəldən səbətə atılan analizlər səbətdə qalmağa davam edəcək.",
+        "info": "Analizlərinizi bilirsinizsə tapıb səbətə atın. Lazım olan analizlərin adından əmin deyilsinizsə platformamızdakı mütəxəssislərdən biri ilə ödənişli məsləhətləşərək sizin üçün analizə ehtiyac olub olmadığını dəqiqləşdirmək yaxşı fikir ola bilər. Check up üçün bizimlə əlaqə yaradın.",
+        "patientWarning": "Analizlərdə səhvlik olmaması üçün ilk öncə pasiyentin adını ve soyadını daxil etməyinizi xahiş edirik.",
+        "patientError": "Bu pasiyent üçün artıq səbətə analiz atmısınız. Pasiyent adını dəyişdirmək üçün seçilən analizləri siyahıda tapıb təkrar klikləyərək ləğv etməlisiniz.",
+        "refresh": "Analiz qurumunu dəyişdir",
+        "search": "Analiz adı/kodu axtar",
+        "table": {
+            "add": "Əlavə et",
+            "code": "Analiz kodu",
+            "name": "Analizin adı",
+            "price": "Qiymət"
+        }
+    },
+    "expert": {
+        "detail": {
+            "emptyBiography":" Mütəxəssis haqqında məlumat yoxdur",
+             "education": "Təhsili",
+            "certificationsDiplomas": "Sertifikat/Diplom",
+            "seminarsCongresses": "Tədbirlər",
+            "scientificArticles": "Elmi məqalələr",
+            "gallery": "Qalereya",
+            "noEvents": "Heç bir tədbir əlavə olunmayıb.",
+            "socialLinks": "Sosial Media bağlantıları",
+            "eventTypeLabels": {
+                "1": "Diplom",
+                "2": "Tədbirlər",
+                "3": "Elmi məqalə",
+                "default": "Tədbirlər"
+            },
+            "expertBlog": "Mütəxəssis Blogu",
+            "emptyBlog": "Mütəxəssis tərəfindən heç bir yazı əlavə olunmayıb",
+            "workLanguages":"Fəaliyyət göstərdiyi dillər",
+            "workLang":{
+                "az": "Azərbaycan",
+                "gb": "İngilis",
+                "ru": "Rus",
+                "tr": "Türk",
+                "sa": "Ərəb",
+                "fr": "Fransız",
+                "de": "Alman"
+            }
+        },
+        "appointment": {
+            "date": {
+                "choose": "Zəhmət olmasa tarixi seçin",
+                "empty": "Mütəxəssis üçün boş randevu tapılmadı",
+                "interval": "Mövcud vaxt intervalları"
+            },
+            "get": "Onlayn Randevu Al",
+            "detail": "Melumatları gör",
+            "getWith": "{fullname} ilə onlayn randevu alın",
+            "info": {
+                "genders": [
+                    "Kişi",
+                    "Qadın"
+                ],
+                "advise": {
+                    "for": "üçün",
+                    "options": [
+                        "Özüm",
+                        "Övladım",
+                        "Valideynim",
+                        "Digər şəxs"
+                    ],
+                    "title": "Məsləhət alıram *"
+                },
+                "age": {
+                    "title": "18 yaş təsdiqi *",
+                    "verify": "18 yaşımın tamam olduğunu təsdiq edirəm."
+                },
+                "info": {
+                    "title": "Məlumatların təsdiqi *",
+                    "verify": "Qeyd etdiyim məlumatların düzgünlüyünü təsdiq edirəm*"
+                },
+                "note": "Vacib qeydlər",
+                "user": {
+                    "phone": "Whatsapp nömrəm *",
+                    "fullname": "Ad, Soyad",
+                    "gender": "Cins",
+                    "birthDate": "Doğum tarixi",
+                    "title": "İstifadəçi"
+                }
+            },
+            "last": {
+                "clinic": "Klinika məlumatı",
+                "patient": {
+                    "email": "E-poçt:",
+                    "name": "Ad, soyad:",
+                    "phone": "Whatsapp nömrəsi:",
+                    "birthDate": "Doğum tairxi:",
+                    "gender": "Cins",
+                    "title": "Xəstə məlumatları"
+                },
+                "randevu": {
+                    "date": "Tarix :",
+                    "expert": "Mütəxəssis :",
+                    "services": "Xidmət",
+                    "time": "Vaxt :",
+                    "title": "Randevunun xülasəsi",
+                    "totalPrice": "Ümumi qiymət"
+                }
+            },
+            "service": {
+                "duration": "Xidmət müddəti",
+                "price": "Qiymət"
+            },
+            "stepper": {
+                "finish": "Tamamla",
+                "labels": [
+                    "Xidmət Seç",
+                    "Tarix və Saat Seç",
+                    "İstifadəçi Məlumatları",
+                    "Təsdiqlə"
+                ],
+                "fillAll": "Zəhmət olmasa məlumatları tam doldurun",
+                "next": "Növbəti",
+                "prev": "Əvvəlki",
+                "search": "Xidmət Axtar",
+                "organizationInfo": "Gəliş kanalı",
+                "more": "daha çox",
+                "less": "daha az",
+                "session": "Seans",
+                 "unassigned": "təyin olunmayıb",
+                  "paid": "Ödənişli"
+            },
+            "missing": {
+                "title": "Bu mütəxəssis müvəqqəti olaraq fəaliyyət göstərmir",
+                "desc": "Daha sonra təkrar yoxlaya və ya",
+                "contact": "Bizimlə əlaqə saxlaya bilərsiniz",
+                "back": "Mütəxəssislər səhifəsinə qayıt"
+            }
+        },
+        "biography": "Bioqrafiya    ",
+        "filter": {
+            "all": "Bütün İxtisaslar",
+            "bySpec": "İxtisasa görə",
+            "search": "Ad və soyad ilə axtar"
+        },
+        "notFound": "Axtarışa uyğun mütəxəssis yoxdur!",
+        "warning": "Randevu almaq üçün ilk öncə giriş etməlisiniz"
+    },
+    "verified":{
+        "title": "Hesabınız Uğurla Təsdiqləndi",
+        "description": "Artıq hesabınıza giriş edəbilərsiniz.",
+        "goLogin": "Daxil Ol"
+    },
+    "payment": {
+        "goDashboard": "Kabinetə Keç",
+        "statuses": [
+            "Ödəniş Başladı",
+            "Təsdiqləndi",
+            "Tamamlandı",
+            "Gözləmədədir"
+        ],
+        "BeingPrepared": {
+            "title": "Hazırlanır",
+            "description": "Sifarişiniz hazırlanır! Hələ heç bir ödəniş icra olunmayıb."
+        },
+        "Cancelled": {
+            "title": "Ləğv Edildi",
+            "description": "Sifarişiniz ləğv edildi. Əgər bu səhvən baş veribsə, bizimlə əlaqə saxlayın!"
+        },
+        "Rejected": {
+            "title": "Rədd Edildi",
+            "description": "Sifarişiniz ödəniş provayderi tərəfindən qəbul olunmadı. Zəhmət olmasa, başqa bir ödəniş üsulu sınayın."
+        },
+        "Refused": {
+            "title": "İmtina Edildi",
+            "description": "Ödəniş etməyi seçmədiniz və ya uğursuz cəhddən sonra sifarişiniz imtina olundu."
+        },
+        "Expired": {
+            "title": "Vaxtı Bitdi",
+            "description": "Sifarişinizin vaxtı bitdi. Yenidən sifariş vermək istəsəniz, bizimlə əlaqə saxlayın!"
+        },
+        "Authorized": {
+            "title": "Təsdiqləndi",
+            "description": "Ödəniş təsdiqləndi! İndi sifarişiniz icra olunmağa hazırdır."
+        },
+        "PartiallyPaid": {
+            "title": "Qismən Ödənildi",
+            "description": "Ödənişin bir hissəsi alındı. Sifarişin tamamlana bilməsi üçün qalan məbləği ödəməlisiniz."
+        },
+        "FullyPaid": {
+            "title": "Ödəniş tamamlandı",
+            "free":"Sifarişiniz qeyd edildi",
+            "description": "Sifarişinizi kabinetinizə keçid edərək yoxlayabilərsiniz."
+        },
+        "Funded": {
+            "title": "Maliyyələşdirildi",
+            "description": "Sifarişiniz üçün vəsait köçürüldü. Hər şey yolunda!"
+        },
+        "Declined": {
+            "title": "İmtina Edildi",
+            "description": "Bank və ya ödəmə sistemi ödənişinizi qəbul etmədi. Kart məlumatlarınızı yoxlayın və yenidən cəhd edin."
+        },
+        "Voided": {
+            "title": "Ödəniş Ləğv Edildi",
+            "description": "Ödənişiniz tamamilə ləğv edildi. Başqa sualınız varsa, bizə yazın!"
+        },
+        "Refunded": {
+            "title": "Geri Qaytarıldı",
+            "description": "Ödənişiniz uğurla geri qaytarıldı. Məbləğ yaxın zamanda hesabınıza oturacaq."
+        },
+        "Closed": {
+            "title": "Bağlandı",
+            "description": "Sifariş tamamlandı və artıq bağlanıb. Təşəkkür edirik!"
+        },
+        "Pending": {
+            "title": "Gözləyir",
+            "description": "Sifarişiniz gözləmə rejimindədir. Ödənişinizin təsdiqlənməsini gözləyin."
+        }
+    },
+    "calendar": {
+        "with": "{fullname} ilə görüş",
+        "today": "Bugün",
+        "previous": "Əvvəlki",
+        "next": "Növbəti",
+        "month": "Ay",
+        "week": "Həftə",
+        "day": "Gün",
+        "agenda": "Aylıq Plan",
+        "noEventsInRange": "Bu aralıqda təyinat yoxdur",
+        "date": "Tarix",
+        "time": "Vaxt",
+        "event": "Təyinat",
+        "more": "+{count} daha"
+    },
+    "notification": {
+    "title": "Bildirişlər",
+    "refresh": "Yenilə",
+    "loading": "Yüklənir...",
+    "empty": "Bildiriş yoxdur",
+    "all": "Bütün bildirişlər",
+    "openMenu": "Bildiriş menyusunu aç",
+    "close": "Bağla"
+    }
+    ,
+      "deviceSupportAlert": {
+    "warning": "Xəbərdarlıq",
+    "short": "Google Meet köhnə cihazlarda və güncəllənməmiş brauzerlərdə işləməyə bilər. Lütfən cihaz və brauzerinizin güncəl olduğuna əmin olun.",
+    "title": "Google Meet cihaz uyğunluğu",
+    "points": [
+      "Android 6+ və iOS 15+ tövsiyə olunur. Köhnə versiyalarda tətbiq işləməyə bilər.",
+      "Chrome, Firefox, Edge və Safari-nin güncəl versiyasından istifadə edin.",
+      "Köhnə Windows və MacOS versiyalarında brauzer güncəllənmirsə, qoşulma mümkün olmaya bilər."
+    ],
+    "actions": {
+      "readMore": "Daha ətraflı",
+      "dismiss": "Bağla",
+      "ok": "Oldu"
+    }
+  }
+}

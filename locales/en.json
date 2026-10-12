@@ -1,0 +1,930 @@
+{
+    "contact": {
+        "callUs": "Contact us via WhatsApp",
+        "desc": "Please feel free to write to us with your suggestions and complaints. Required fields are marked *",
+        "email": "Email",
+        "form": {
+            "email": "Your email address",
+            "fullname": "Name, Surname",
+            "header": "Send Message",
+            "message": "Your message...",
+            "submit": "Send"
+        },
+        "header": "Contact us",
+        "location": {
+            "desc": "Baku, Azerbaijan",
+            "header": "Address"
+        }
+    },
+    "infoUTC": {
+        "title": "All times are in Azerbaijan Standard Time"
+    },
+    "dashboard": {
+        "analysis": {
+            "notfound": "No analyses found!",
+            "analysis": "Analysis",
+            "productCode": "Product Code",
+            "pending": "Pending",
+            "patient": "Patient",
+            "more": "More",
+            "verified": "Verified",
+            "showOnMap": "Show on Map",
+            "results": "Show Results",
+            "price": "Price",
+            "free": "Free",
+            "date": "Date",
+            "clinic": "Clinic",
+            "close": "Close",
+            "getAnalysis": "Get Analysis ",
+            "attachments": {
+                "empty": "No files have been attached",
+                "label": "Attached Files",
+                "view": "View"
+            }
+        },
+        "appointment": {
+            "notfound": "No appointments found!",
+            "free": "Free",
+            "more": "More",
+            "button": "Book Appointment",
+            "detail": {
+                "upcoming": "Upcoming Session",
+                "other": {
+                    "label": "Other Information",
+                    "service": "Service",
+                    "status": "Payment Status",
+                    "forWhom": "Appointment For",
+                    "whatsapp": "My WhatsApp Number"
+                },
+                "join": "Join the Meeting",
+                "meetWith": "Meeting with {expert}",
+                "addCalendar": "Add to Calendar",
+                "userDetails": "Patient Information",
+                "note": "Important Notes",
+                "attachments": {
+                    "label": "Attached Files",
+                    "empty": "No files have been attached",
+                    "view": "View"
+                }
+            }
+        },
+        "homePage": "Home",
+        "cartPage": "Cart",
+        "routes": [
+            {
+                "title": "My Dashboard"
+            },
+            {
+                "title": "My Appointments",
+                "subRoutes": [
+                    "Appointment Detail"
+                ]
+            },
+            {
+                "title": "My Analyses"
+            },
+            {
+                "title": "Notifications"
+            },
+            {
+                "title": "My Account"
+            },
+            {
+                "title": "Changing Password"
+            }
+        ],
+        "user": {
+            "settings": {
+                "changePass": "Change Password",
+                "logout": "Exit",
+                "myAccount": "My Account"
+            },
+            "profile": {
+                "title": "Edit Profile",
+                "name": "Name",
+                "surname": "Surname",
+                "email": "Email",
+                "birthDate": "Date of Birth",
+                "female": "Female",
+                "gender": "Gender",
+                "male": "Male",
+                "country": "Country",
+                "city": "City",
+                "save": "Save",
+                "editPhone": {
+                    "phone": "Contact Number",
+                    "enterPhone": "Enter new phone number",
+                    "enterCode": "Enter the code",
+                    "sendCode": "Send Code",
+                    "verify": "Verify",
+                    "cancel": "Cancel"
+                }
+            },
+            "changePass": {
+                "title": "Change Password",
+                "oldPassword": "Current Password",
+                "newPassword": "New Password",
+                "confirmPassword": "Confirm New Password",
+                "update": "Update Password"
+            }
+        },
+        "home": {
+            "appointment": "Appointment",
+            "applyFilter": "Apply Filters",
+            "choose": {
+                "all": "All",
+                "expert": "Choose Expert",
+                "service": "Choose Service",
+                "status": "Choose Status"
+            }
+        }
+    },
+    "forgetPassword": {
+        "email": "Your email address",
+        "info": "Please enter your email to reset your password. A reset link will be sent to your email.",
+        "send": "Send",
+        "title": "Password Reset"
+    },
+    "login": {
+        "ask": {
+            "link": "Create an account",
+            "question": "Don't have an account?"
+        },
+        "email": "Email",
+        "forget": "Forgot your password?",
+        "login": "Log in",
+        "password": "Password"
+    },
+    "metadata": {
+        "dashboard": {
+            "title": "My Dashboard",
+            "profile": {
+                "title": "My Dashboard"
+            },
+            "changePass": {
+                "title": "Change Password"
+            }
+        },
+        "appointment": {
+            "title": "Make an Appointment"
+        },
+        "about": {
+            "title": "About us"
+        },
+        "agreement": {
+            "title": "User Agreement"
+        },
+        "analyses": {
+            "title": "Analyses"
+        },
+        "auth": {
+            "login": {
+                "title": "Log in"
+            },
+            "register": {
+                "title": "Register"
+            },
+            "verify": {
+                "title": "Verify Account"
+            },
+            "forgotPassword": {
+                "title": "Forgot Password"
+            },
+            "reset": {
+                "title": "Reset Password"
+            }
+        },
+        "cart": {
+            "title": "Cart"
+        },
+        "checkout": {
+            "title": "Order Summary"
+        },
+        "contact": {
+            "desc": "Do not hesitate to write to us with your suggestions and complaints.",
+            "title": "Contact"
+        },
+        "expert": {
+            "title": "Experts"
+        },
+        "faq": {
+            "title": "Frequently Asked Questions"
+        },
+        "general": {
+            "desc": "SİNAPSMED connects clients with specialist doctors, psychologists and dietitians through online communication technologies, providing telemedicine, online doctor consultation, online psychotherapy and online dietology services. Thanks to our portal, you can benefit from the knowledge and experience of specialist doctors living outside your city or country and receive psychotherapy services and dietitian advice without leaving the comfort of your home. The Sinapsmed portal cooperates and connects you only with specialist doctors, consultant doctors, psychologists and dietitians who are trained to world standards, experienced and competent in their field.",
+            "title": {
+                "default": "Sinapsmed-Teletibb | We are building the future of medicine!",
+                "template": "Sinapsmed-Teletibb"
+            }
+        },
+        "notFound": {
+            "desc": "The page you are looking for was not found. It may have been deleted or moved.",
+            "goBack": "Back to Home",
+            "title": "Page Not Found"
+        },
+        "privacy": {
+            "title": "Privacy Policy"
+        }
+    },
+    "privacy": {
+        "header": "PRIVACY POLICY",
+        "intro": {
+            "altDesc": [
+                "You are also requested to visit the “sinapsmed.com” website, which contains detailed information about our terms of service.",
+                "User agreement",
+                "Please familiarize yourself with the section."
+            ],
+            "desc": "Since the confidentiality and security of your personal data are of great importance to us, we collect and manage your personal data with a high degree of caution. We take appropriate measures to ensure their security. Here you can familiarize yourself with the basic information regarding the processing of your personal data by “SİNAPSMED LLC” when you visit the “sinapsmed.com” website and use the services we offer.",
+            "header": "Welcome to the website \"sinapsmed.com\" (hereinafter referred to as the \"site\")."
+        },
+        "last": {
+            "altDesc": [
+                "The bank card information entered by the customer during the purchase is not stored by the site or the seller.",
+                "In the above cases, the processing of your personal data for the provision of services specifically requested by you is lawful within the framework of the performance of the Contract concluded with you.",
+                "We also conduct statistical research and data analysis to understand how users interact with the site and to further improve our offerings and services in the future."
+            ],
+            "desc": "“SİNAPSMED” LLC processes the personal data you provide to us when placing an order and purchasing products, as well as information about the services you view or use while you are on the “sinapsmed.com” website. Thus, the website may collect your name and surname, delivery and billing address, information you view on the website, and information about your customer habits. Your personal data is processed for the following purposes:",
+            "header": "What personal data is processed and why?",
+            "list": [
+                "Conclusion and execution of purchase and sale agreements for products offered on the \"sinapsmed.com\" website;",
+                "Providing services such as subscriptions on the \"sinapsmed.com\" website;",
+                "Registration on the site and use of services provided to registered users;",
+                "Monitoring of requests directed to our customer service."
+            ]
+        },
+        "second": {
+            "desc": "Below is the main information on the processing of your personal data carried out by the company “SİNAPSMED” LLC, registered at 94 B, J. Nakhchvanski str., Nizami district, Baku city, Azerbaijan, TIN: 1604962741, acting as the controller of your personal data.",
+            "header": "Who is the controller of personal data?"
+        }
+    },
+    "register": {
+        "ask": {
+            "link": "Log in",
+            "question": "Already have an account?"
+        },
+        "password": "Password",
+        "confirmPassword": "Confirm New Password",
+        "email": "Email",
+        "female": "Female",
+        "gender": "Gender",
+        "male": "Male",
+        "name": "Name",
+        "phone": "Contact Number",
+        "register": "Send SMS Code",
+        "surname": "Last name",
+        "title": "Register",
+        "warning": [
+            "After completing registration, a 6-digit verification code will be sent via SMS.",
+            "Once your number is verified, a confirmation link will be sent to your email."
+        ]
+    },
+    "reset": {
+        "confirm-pass": "Repeat New Password",
+        "pass": "New Password",
+        "submit": "Refresh",
+        "title": "Password Reset"
+    },
+    "verify-email": {
+        "title": "Set Password",
+        "pass": "New Password",
+        "confirm-pass": "Confirm New Password",
+        "submit": "Confirm"
+    },
+    "calendar": {
+        "with": "Meeting with {fullname}",
+        "today": "Today",
+        "previous": "Back",
+        "next": "Next",
+        "month": "Month",
+        "week": "Week",
+        "day": "Day",
+        "agenda": "Agenda",
+        "noEventsInRange": "No appointments in this range",
+        "date": "Date",
+        "time": "Time",
+        "event": "Appointment",
+        "more": "+{count} more"
+    },
+    "blog": {
+        "comment": {
+            "status": {
+                "pending": "Pending",
+                "verified": "Verified",
+                "rejected": "Rejected"
+            },
+            "cancel": "Cancel",
+            "close": "Hide comments",
+            "info": "To comment, first of all",
+            "login": "log in",
+            "open": "show comment",
+            "placeholder": "Add a comment",
+            "send": "Send",
+            "title": "Comment"
+        },
+        "readMore": "Read more"
+    },
+    "common": {
+        "buttonLinks": {
+            "appointment": "Make an appointment online",
+            "gotoPanel": "Go to the dashboard",
+            "login": "Log in"
+        },
+        "footer": {
+            "contactInfo": "Contact information",
+            "links": {
+                "faq": "Frequently Asked Questions",
+                "privacy": "Privacy Policy",
+                "user_agreement": "User agreement"
+            },
+            "location": "Baku, Azerbaijan",
+            "otherLinks": "Other Transitions",
+            "slogan": "We are building the future of medicine!"
+        },
+        "more": "More",
+        "navbar": {
+            "dashboard": "My Dashboard",
+            "home": "Home",
+            "routes": [
+                "About us",
+                "Services",
+                "Analyses",
+                "Experts",
+                "Blog",
+                "Contact",
+                "Cart"
+            ],
+            "signin": "Log in"
+        }
+    },
+    "date": {
+        "reply": {
+            "show": "Show {count} comment",
+            "show_plural": "Show {count} comments",
+            "hide": "Hide comments",
+            "showAll": "Show comments"
+        },
+        "ago": "ago",
+        "months": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+        "now": "now",
+        "periods": {
+            "sec": "{count} second",
+            "sec_plural": "{count} seconds",
+            "min": "{count} minute",
+            "min_plural": "{count} minutes",
+            "hour": "{count} hour",
+            "hour_plural": "{count} hours",
+            "day": "{count} day",
+            "day_plural": "{count} days",
+            "month": "{count} month",
+            "month_plural": "{count} months",
+            "year": "{count} year",
+            "year_plural": "{count} years"
+        }
+    },
+    "form": {
+        "validation": {
+            "email": "\"{name}\" cannot be empty! ",
+            "misMatch": "\"{name}\" is not in the correct format! ",
+            "password": "\"{name}\" cannot be empty! ",
+            "radio": "A \"{name}\" must be selected!",
+            "text": "\"{name}\" cannot be empty! "
+        }
+    },
+    "home": {
+        "sections": {
+            "define": {
+                "content": {
+                    "left": [
+                        "Sinapsmed is a portal that provides online medical consultation, telemedicine, and online psychotherapy services.",
+                        "SİNAPSMED connects clients with specialist doctors, psychologists and dietitians through online communication technologies, providing telemedicine, online doctor consultation, online psychotherapy and online dietology services. Thanks to our portal, you can benefit from the knowledge and experience of specialist doctors living outside your city or country and receive psychotherapy services and dietitian advice without leaving the comfort of your home. The Sinapsmed portal cooperates and connects you only with specialist doctors, consultant doctors, psychologists and dietitians who are trained to world standards, experienced and competent in their field."
+                    ],
+                    "right": [
+                        {
+                            "header": "No-wait appointment",
+                            "content": "With Sinapsmed, you don't waste time traveling or waiting in line. You simply sit at home and undergo an online examination. There is no need to spend extra time traveling to and from the clinic"
+                        },
+                        {
+                            "header": "Friend of mothers with babies",
+                            "content": "When you go to the clinic with your baby with Sinapsmed, you won't experience situations like his crying during mealtimes and bedtimes"
+                        }
+                    ]
+                },
+                "label": "What is Sinapsmed?"
+            },
+            "experts": {
+                "label": "Our experts"
+            },
+            "faq": {
+                "desc": {
+                    "contact": "contact us",
+                    "end": " keep it.",
+                    "start": "If you have any questions again, "
+                },
+                "label": [
+                    "Do you have a question?",
+                    "See the FAQ Section."
+                ]
+            },
+            "guide": {
+                "content": [
+                    {
+                        "header": "Choose your doctor",
+                        "desc": "Click the book appointment button and select your doctor."
+                    },
+                    {
+                        "header": "Set the time",
+                        "desc": "Choose the date and time that suits you."
+                    },
+                    {
+                        "header": "Make the payment",
+                        "desc": "Complete the payment by choosing cash, online, or payment terminals."
+                    },
+                    {
+                        "header": "Get examined",
+                        "desc": "Your doctor will examine you via video call and take care of your health."
+                    }
+                ],
+                "label": "How Does It Work?"
+            },
+            "partner": {
+                "label": "Partners"
+            }
+        }
+    },
+    "verify": {
+        "title": "Verify Account",
+        "tryAgain": "Resend",
+        "verify": "Verify"
+    },
+    "agreement": {
+        "article10": {
+            "laws": [
+                "This agreement, consisting of 10 (TEN) articles and 1 appendix, is deemed to be accepted by the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) upon reading and confirming it electronically and shall enter into force immediately upon payment of the service fee."
+            ],
+            "title": "RIDING INTO FORCE"
+        },
+        "article1": {
+            "firstArticle": {
+                "desc": "The parties to this agreement are as follows:",
+                "laws": [
+                    "Service provider (Specialist doctor or Consultant doctor or Psychologist or Dietician or Laboratory analysis institution)",
+                    "Recipient (CONSULTATION RECIPIENT and/or SERVICE USER)"
+                ],
+                "thirdLaw": "Seller-broker: SİNAPSMED LLC (E-mail: "
+            },
+            "secondArticle": {
+                "desc": "This agreement regulates the mutual rights and obligations of the parties in the purchase of medical advice or analysis services provided through online platforms by the Buyer (CONSULTATION PURCHASER and/or SERVICE USER).",
+                "laws": [
+                    "The medical consultation service provided by SİNAPSMED LLC CANNOT BE CONSIDERED A SUBSTITUTE FOR ANY MEDICAL SERVICE provided by the Ministry of Health of the Republic of Azerbaijan.",
+                    "The organization of treatment and prevention work in the territory of the Republic of Azerbaijan is solely the responsibility of the Ministry of Health and its certified institutions and individuals.",
+                    "The package of services cannot be considered a substitute for a traditional medical examination in cases where the patient and doctor must be together.",
+                    "In situations where you need to see a doctor directly for medical diagnosis and treatment of illnesses, and in emergencies, you should call the emergency medical number of your place of residence without delay.",
+                    "The medication(s) recommended to the recipient of the consultation as a result of an online meeting by a doctor cannot be substituted for a prescription; prescriptions that allow for the use of the medication can only be written by doctors providing services in institutions certified by the Ministry of Health of the Republic of Azerbaijan.",
+                    "The Buyer (and/or the CONSULTANT RECIPIENT and/or the SERVICE USER) has been informed in detail and his/her consent has been obtained on these matters through the \"USER INFORMATION AND CONSENT AGREEMENT\" provided in the appendix to this agreement."
+                ]
+            },
+            "title": "PARTIES AND SUBJECT"
+        },
+        "article2": {
+            "laws": [
+                "The term of this agreement begins with the payment of the predetermined amount by the Buyer (and/or CONSULTATION RECIPIENT and/or SERVICE USER) together with the mutual rights and obligations of the parties, and ends with the provision of the service that is the subject of the agreement by the specialist or consultant doctor or psychologist or dietician on the appointment date determined by the online platforms."
+            ],
+            "title": "TERM OF THE CONTRACT"
+        },
+        "article3": {
+            "desc": "The amount to be charged for the services referred to in this agreement is the amount notified to the Buyer (and/or CONSULTATION RECIPIENT and/or SERVICE USER) and posted on the internet portal (www.sinapsmed.com) where the service was purchased.",
+            "title": "CONTRACT PRICE"
+        },
+        "article4": {
+            "laws": [
+                "The package of services will provide the CONSULTATION RECEIVER and/or SERVICE USER with the opportunity to receive advice on relevant topics from a specialist doctor or consultant doctor or psychologist or dietitian, in accordance with the service chosen.",
+                "Appointment details for the service package purchased by the BUYER online will be sent to the email address provided by the BUYER during registration.",
+                "The time of provision of the consultation service is the time chosen by the BUYER as the appointment date.",
+                "The duration of meetings with doctors is as long as the doctor deems necessary, with a maximum of 30 (THIRTY) minutes.",
+                "The DOCTOR may recommend that the SERVICE USER undergo various tests (analysis) or radiological examinations. These tests are not included in the service received and can be performed by 3rd party institutions for the SERVICE USER upon payment or by 3rd party institutions that have an agreement with Sinapsmed LLC upon payment on the sinapsmed.com portal.",
+                "The doctor may choose to have an online meeting or a phone call to review the test results. This is entirely up to the dietitian's discretion.",
+                "The CONSULTANT and/or SERVICE USER has the right to a free follow-up appointment with the doctor within 10 (TEN) days from the end of the appointment to show the test and analysis results. The importance and number of these appointments are decided by the DOCTOR. The follow-up appointment will be organized by the SİNAPSMED management team and the appointment date will be communicated to you.",
+                "If the CONSULTANT and/or SERVICE USER wishes to meet with the DOCTOR again within a period exceeding 10 (TEN) days from the end of the appointment, they must register, pay and make an appointment as before.",
+                "The duration of meetings with a dietitian is as long as the dietitian deems necessary, with a maximum of 30 (THIRTY) minutes.",
+                "The dietician may recommend that the SERVICE USER undergo various tests (analysis) or radiological examinations. These tests are not included in the service received and can be performed by 3rd party institutions for the SERVICE USER upon payment or by 3rd party institutions that have an agreement with Sinapsmed LLC upon payment on the sinapsmed.com portal.",
+                "The dietitian may choose to meet online or via email or phone to review the test results. This is entirely at the discretion of the dietitian.",
+                "The CONSULTANT and/or SERVICE USER has the right to a free follow-up meeting with the dietitian within 10 (TEN) days from the end of the appointment to show the test and analysis results. The importance and number of these meetings are decided by the DIETITIAN. The follow-up meeting will be organized by the SİNAPSMED management team and the appointment date will be communicated to you.",
+                "If the CONSULTANT and/or SERVICE USER wishes to meet with the DIETITIAN again within a period exceeding 10 (TEN) days from the end of the appointment, they must register, pay and make an appointment as before.",
+                "Each session scheduled at a psychologist's appointment lasts 45 (FORTY-FIVE) minutes.",
+                "The CONSULTANT and/or SERVICE USER may communicate with the psychologist via email outside of the session, but the psychologist is not obligated to respond to these emails.",
+                "In the event of delays in the implementation of the appointment, the PURCHASER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) will be informed by the SİNAPSMED management team and will be given the options of changing the appointment date or refunding the entire amount paid to the sender.",
+                "If for any reason the service fee is not paid by the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) or is canceled by the bank, the SERVICE PROVIDER is deemed to be released from the obligation to provide the service package, and SİNAPSMED LLC is deemed to be released from the obligation to mediate.",
+                "This agreement comes into effect when the BUYER ticks the CONFIRMATION box located on the appointment booking page on the portal, next to which a link is placed to display the “USER INFORMATION AND CONSENT AGREEMENT” in a legible form in addition to the DISTANCE SALES AGREEMENT; the appointment is fulfilled by the provision of the service in an online environment by the SERVICE PROVIDER to the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) at the time of the appointment."
+            ],
+            "title": "MAIN FEATURES OF THE SUBJECT OF THE CONTRACT:"
+        },
+        "article5": {
+            "laws": [
+                "The BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) declares that he/she has read, understood, been fully informed, informed and electronically confirmed the information provided online by the Seller (SİNAPSMED portal) regarding the features, price and payment method of the service package.",
+                "In order to implement the service package he/she has chosen, the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) expressly consents to the recording, processing and storage of the personal data provided by him/her upon registration to the SİNAPSMED.COM portal and the personal medical data obtained by the doctor during the appointment, subject to the limited use in medical and scientific research, as well as for the development of the services provided by the portal.",
+                "The DOCTOR has the right to prepare a medical history for each PATIENT (PATIENT) by entering the necessary medical/non-medical information, including the patient's name, surname, patronymic, date and place of birth, address, and ID card number, and store it in the doctor's personal archive. The doctor will transfer the prepared medical history to the SİNAPSMED portal after the appointment, and this information will be processed by the SİNAPSMED portal and archived in the portal's providers.",
+                "The psychologist also has the right to collect and store data as stated in paragraph 3, but this data is NOT REQUIRED by the SİNAPSMED portal in ANY CASE. The SİNAPSMED portal only has the right to record, process and store all data entered during registration.",
+                "The Buyer (and/or the CONSULTATION RECIPIENT and/or the SERVICE USER) may submit their requests and complaints to the Seller (SİNAPSMED portal) at info@sinapsmed.com. The BUYER (and/or the CONSULTATION RECIPIENT and/or the SERVICE USER) will evaluate these requests and complaints as soon as possible and respond to the BUYER (and/or the CONSULTATION RECIPIENT and/or the SERVICE USER) via the contact information provided when registering for the appointment.",
+                "If for any reason the service fee is not paid by the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) or is canceled by the bank, the SERVICE PROVIDER is deemed to be released from the obligation to provide the service package, and the SİNAPSMED portal is deemed to be released from the obligation to act as an intermediary.",
+                "In cases where the CONSULTATION RECIPIENT and/or SERVICE USER does not attend the meeting to be held via video, audio or messaging at the appointed time, the Seller (SİNAPSMED LLC) is not obligated to refund the amount paid.",
+                "This agreement shall enter into force for the parties indicated in ARTICLE-1 upon the BUYER checking the CONFIRMATION box located on the appointment booking page of the portal, next to which, in addition to the DISTANCE SALES AGREEMENT, a link is also placed to view the “USER INFORMATION AND CONSENT AGREEMENT” in a legible form; the appointment shall be fulfilled by the provision of the service in an online environment by the SERVICE PROVIDER to the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) at the time of the appointment.",
+                "By confirming this agreement online/electronically, the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) confirms that he/she has received complete and accurate information about the consulting service provided by the SERVICE PROVIDER.",
+                "The SİNAPSMED portal reserves the right to make amendments or changes to the text of these agreements in the future without any notice to the BUYER (and/or CONSULTATION PURCHASER and/or SERVICE USER)."
+            ],
+            "title": "REPRESENTATIONS AND OBLIGATIONS OF THE PURCHASER (AND/OR CONSULTANT AND/OR SERVICE USER)"
+        },
+        "article6": {
+            "laws": [
+                "All correspondence between the parties under this agreement, except in cases of necessity, will be carried out via the e-mail address and mobile operator or \"Whatsapp\" contact number declared by the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER).",
+                "In the event of any dispute arising out of this Agreement, the personal and official records of the SERVICE PROVIDER, its own database, the information stored in its providers, as well as the medical history and computer records prepared by it, shall be accepted as binding, accurate and specific evidence. This article shall be accepted as an evidence agreement."
+            ],
+            "title": "NOTICES AND EVIDENCE AGREEMENT"
+        },
+        "article7": {
+            "laws": [
+                "The remote consultation/consultation service is personal. The amount paid for the consultation service is intended for the use of one person and the usage fee cannot be transferred to third parties and/or institutions.",
+                "It is prohibited for both the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) and the SERVICE PROVIDER to copy, store and share meetings in audio or video format, as well as in the form of screenshots!"
+            ],
+            "title": "RIGHTS AND OBLIGATIONS OF THE PARTIES"
+        },
+        "article8": {
+            "laws": [
+                "The amount paid by the BUYER for an online meeting that is completed in a timely manner in an electronic environment and takes place between the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) and the SERVICE PROVIDER is not refundable under any circumstances."
+            ],
+            "otherLaws": [
+                "The PURCHASER (and/or CONSULTATION RECIPIENT and/or SERVICE USER) shall submit his/her request for service up to 14 hours before the appointment time.",
+                "can cancel without penalty by sending a request for cancellation of service to the email address. If the paid appointment is less than 14 hours away, a 20 (twenty) percent deficit of the amount paid for the appointment can be deducted and the cancellation can be made. The process of refunding the corresponding amount to the bank account number provided will begin within 48 hours of the cancellation request."
+            ],
+            "title": "RIGHT OF WITHDRAWAL FROM THE CONTRACT"
+        },
+        "article9": {
+            "laws": [
+                "SİNAPSMED.COM is a portal providing online medical advice, telemedicine, online consultation and online psychotherapy services. SİNAPSMED.COM connects medical advice recipients with doctors, consultant doctors, dieticians and qualified psychologists specialized in their fields through online communication technologies.",
+                "SİNAPSMED LLC SHALL NOT BE LIABLE OR BLAMED IN ANY WAY for any medical malpractice or violation of the right to privacy of personal information that may arise as a result of the provision of services mediated by SİNAPSMED LLC. Such negative situations must be resolved between the SERVICE PROVIDER and the CONSULTANT and/or SERVICE USER.",
+                "The medication(s) recommended to the recipient of the consultation as a result of an online meeting by a doctor cannot be substituted for a prescription, and prescriptions that allow the use of the medication can only be written by doctors providing services in institutions certified by the Ministry of Health of the Republic of Azerbaijan.",
+                "Responsibility for any adverse events that may arise from the main and additional effects of the recommended medications lies ONLY with the CONSULTANT and/or SERVICE USER, and in such cases neither SERVICE PROVIDER nor SİNAPSMED LLC will be responsible and cannot be blamed under any circumstances.",
+                "Any dispute arising out of or in connection with this agreement shall be settled through negotiations.",
+                "If disputes and disagreements between the parties are not resolved through negotiations, those disputes are considered through the courts.",
+                "The BUYER (and/or CONSULTANCY RECIPIENT and/or SERVICE USER) accepts, declares and undertakes to exclusively apply to the administrative courts of Baku, Republic of Azerbaijan, to resolve any disputes that may arise from this agreement and its application."
+            ],
+            "otherLaws": [
+                "For any kind of advertising the subject of which is derived from the contract, the e-mail address provided by the BUYER (and/or CONSULTANT BUYER and/or SERVICE USER) during registration and",
+                "They accept and declare the email address as a legal means of communication and undertake to do so."
+            ],
+            "title": "PROPAGANDA AND DISPUTES"
+        },
+        "articleHeader": "Article {no}: {title}",
+        "header": "DISTANCE SALES CONTRACT",
+        "lastDesc": "I accept and declare that I have read, understood and accepted all the information texts provided to me at the stage of agreeing to this contract, that I have been sufficiently informed about the form in which the meeting will be held and that I will use the service provided in accordance with this information. This document is approved by agreement between the BUYER (and/or CONSULTATION RECIPIENT and/or SERVICE USER), the Service Provider (Specialist Doctor or Consultant Doctor or Psychologist or Dietitian), and the Seller-Intermediary (SİNAPSMED LLC). ",
+        "otherArticle": {
+            "altTitle": "BASED ON THE INFORMATION PROVIDED IN WRITING ABOUT THE SCOPE OF THE MEDICAL ADVICE AND CONSULTATION SERVICES PROVIDED TO ME;",
+            "laws": [
+                "By using online services, I will receive advice about my health within the scope of the service provided by a specialist doctor (or consultant doctor or dietician or psychologist) specializing in the field of my choice.",
+                "The service provided cannot replace a traditional medical examination in situations where the patient and doctor must be together.",
+                "It is important for me to seek medical advice and undergo a physical examination at my own discretion for all medical needs, such as diagnosis, treatment, and follow-up.",
+                "I am aware that I should go to the nearest hospital or contact the emergency medical center in my area regarding situations related to my health that require emergency intervention.",
+                "Otherwise, the specialist doctor (or consultant doctor or psychologist or dietician) providing the service, as well as SİNAPSMED LLC, will not be held responsible or held liable for any negative consequences that may arise.",
+                "I understand that the starting time of the online meeting, the format (correspondence, voice, visual or video-audio-textual), the duration of the meeting, the termination of the started meeting and the final decision-making authority on all topics during the meeting will belong to the medical specialist (or consulting doctor or psychologist or dietitian) with whom I am meeting.",
+                "I understand that no one will be with me during the online appointment, and that I must inform the medical specialist (or consulting doctor or psychologist or dietitian) I am meeting with if there is anyone with me.",
+                "There is a possibility that the meeting may be interrupted due to technical reasons or may not be useful.",
+                "During the online meeting, it is prohibited to take video, audio, written or screenshots of both the CONSULTANT and/or SERVICE USER, as well as the medical specialist (or consulting doctor or psychologist or dietitian) providing the service.",
+                "I have been informed in writing that in cases where it is necessary to store information in the form of video, audio, writing or screenshots due to medical necessity, only a medical specialist (or a consulting doctor or psychologist or dietician) from the SERVICE PROVIDER may do so, subject to prior notice to the CONSULTANT and/or SERVICE USER and obtaining their verbal consent, and that the CONSULTANT and/or SERVICE USER may not make any such claim or demand under any circumstances. I have been provided with the contact channels for further information on the subject."
+            ],
+            "title": "ADDITIONAL USER INFORMATION AND CONSENT AGREEMENT"
+        }
+    },
+    "analyses": {
+        "category": "Select Category",
+        "filter": {
+            "by": {
+                "city": "By City",
+                "clinic": "By Clinic",
+                "location": "By Location"
+            },
+            "far": "far away",
+            "map": {
+                "error": "The location you are looking for was not found.",
+                "search": {
+                    "button": "Search",
+                    "input": "Enter location"
+                }
+            },
+            "notfound": "No clinics matching your search",
+            "gotoLocation": "Find the nearest clinic",
+            "stepper": {
+                "city": "Select City\n",
+                "clinic": "Choose a Clinic",
+                "finish": "Complete",
+                "location": "Select Location",
+                "method": "Select Method",
+                "next": "Next",
+                "partner": "Select Institution",
+                "prev": "Previous",
+                "region": "Select Region",
+                "skip": "Skip",
+                "village": "Select Village"
+            },
+            "title": "Choose a method to filter analyses",
+            "choose": "Choose",
+            "chosen": "Chosen"
+        },
+        "notfound": "No analysis matching the search",
+        "guide": "After the analysis institution is changed, the analyses that were previously added to the cart will remain in the cart.",
+        "info": "If you know your analyses, find them and add them to your cart. If you are not sure about the names of the analyses you need, it may be a good idea to have a paid consultation with one of the experts on our platform to clarify whether an analysis is necessary for you. Contact us for a check-up.",
+        "patientWarning": "To avoid errors in the analysis, we ask that you first enter the patient's first and last name.",
+        "patiendError": "You have already added an analysis to the cart for this patient. To change the patient name, you must find the selected analysis in the list and click it again to cancel it.",
+        "refresh": "Change location selection",
+        "search": "Search by analysis name/code",
+        "table": {
+            "add": "Add",
+            "code": "Analysis code",
+            "name": "Analysis name",
+            "price": "Price"
+        }
+    },
+    "cart": {
+        "analysis": "Go to Analytics",
+        "appointment": "Make an Appointment",
+        "bar": {
+            "count": "Product Number",
+            "coupon": {
+                "apply": "Apply",
+                "desc": "Take advantage of discounts by entering your coupon code.",
+                "title": "Coupon Code",
+                "used": "code has been applied!"
+            },
+            "payment": {
+                "discount": "Discount",
+                "lastTotal": "Total Sum",
+                "finish": "Complete Order",
+                "total": "Product Total"
+            },
+            "checkout": {
+                "title": "Order Details",
+                "edit": "Edit",
+                "empty": "No products in the order!",
+                "goCheckout": "Go to the payment page",
+                "finishCheckout": "Complete the order",
+                "info": {
+                    "first": "Your personal information will be used to process your order, support your experience on this website, and for other purposes described in the ",
+                    "link": "privacy policy",
+                    "last": "."
+                },
+                "verify": {
+                    "first": "I have read and agree to the ",
+                    "link": "terms and conditions",
+                    "last": "."
+                }
+            }
+        },
+        "empty": "There are currently no products in the cart.",
+        "list": {
+            "table": {
+                "name": "Product name",
+                "price": "Price",
+                "remove": "Delete"
+            },
+            "types": [
+                "Analyses",
+                "Appointments"
+            ],
+            "warning": "Appointments left in the cart are deleted after 15 minutes, and analyzes after 15 days."
+        }
+    },
+    "expert": {
+        "detail": {
+            "emptyBiography": "No information about the expert is available",
+            "education": "Education",
+            "certificationsDiplomas": "Certificate/Diploma",
+            "seminarsCongresses": "Events",
+            "scientificArticles": "Scientific Articles",
+            "gallery": "Gallery",
+            "noEvents": "No events have been added.",
+            "socialLinks": "Social Media Links",
+            "eventTypeLabels": {
+                "1": "Diploma",
+                "2": "Events",
+                "3": "Scientific Article",
+                "default": "Events"
+            },
+            "expertBlog": "Expert Blog",
+            "emptyBlog": "The expert has not added any posts",
+            "workLanguages": "Languages of operation",
+            "workLang": {
+                "az": "Azerbaijani",
+                "gb": "English",
+                "ru": "Russian",
+                "tr": "Turkish",
+                "sa": "Arabic",
+                "fr": "French",
+                "de": "German"
+            }
+        },
+        "appointment": {
+            "date": {
+                "choose": "Please select a date.",
+                "empty": "No available appointments found for the expert.",
+                "interval": "Available time slots"
+            },
+            "get": "Make an Appointment Online",
+            "detail": "View information",
+            "getWith": "Make an online appointment with {fullname}",
+            "info": {
+                "advise": {
+                    "for": "for",
+                    "options": [
+                        "Myself",
+                        "My child",
+                        "My parent",
+                        "Other person"
+                    ],
+                    "title": "I am seeking advice *"
+                },
+                "age": {
+                    "title": "18 years of age confirmation *",
+                    "verify": "I confirm that I am over 18 years of age."
+                },
+                "genders": [
+                    "Male",
+                    "Woman"
+                ],
+                "info": {
+                    "title": "Confirmation of information *",
+                    "verify": "I confirm that the information I have provided is correct*"
+                },
+                "note": "Important notes",
+                "user": {
+                    "birthDate": "Date of birth",
+                    "fullname": "Name, Surname",
+                    "gender": "Gender",
+                    "phone": "My Whatsapp number *",
+                    "title": "User"
+                }
+            },
+            "last": {
+                "clinic": "Clinic information",
+                "patient": {
+                    "birthDate": "Date of birth:",
+                    "email": "Email:",
+                    "gender": "Gender",
+                    "name": "Name, surname:",
+                    "phone": "Whatsapp number:",
+                    "title": "Patient information"
+                },
+                "randevu": {
+                    "date": "Date:",
+                    "expert": "Expert:",
+                    "services": "Services",
+                    "time": "Time:",
+                    "title": "Meeting summary",
+                    "totalPrice": "Total price"
+                }
+            },
+            "service": {
+                "duration": "Service life",
+                "price": "Price"
+            },
+            "stepper": {
+                "finish": "Complete",
+                "labels": [
+                    "Select Service",
+                    "Select Date and Time",
+                    "Personal Information",
+                    "Confirm"
+                ],
+                "fillAll": "Please fill in all required information",
+                "next": "Next",
+                "prev": "Previous",
+                "search": "Search Service",
+                "organizationInfo": "Organization Information",
+                "more": "more",
+                "less": "less",
+                "session": "Session",
+                "unassigned": "Unassigned",
+                "paid": "Paid"
+            },
+            "missing": {
+                "title": "This expert is temporarily unavailable",
+                "desc": "You can try again later or",
+                "contact": "contact us",
+                "back": "Return to experts page"
+            }
+        },
+        "biography": "Biography",
+        "filter": {
+            "all": "All Specialties",
+            "bySpec": "By specialty",
+            "search": "Search by first and last name"
+        },
+        "notFound": "There are no specialists matching your search!",
+        "warning": "To make an appointment, you must first log in."
+    },
+    "verified": {
+        "title": "Your Account Has Been Successfully Verified",
+        "description": "You can now log in to your account.",
+        "goLogin": "Log In"
+    },
+    "payment": {
+        "goDashboard": "Go to Dashboard",
+        "statuses": [
+            "Payment Started",
+            "Confirmed",
+            "Completed",
+            "Pending"
+        ],
+        "Authorized": {
+            "description": "Payment confirmed! Your order is now ready to be processed.",
+            "title": "Approved"
+        },
+        "BeingPrepared": {
+            "description": "Your order is being prepared! No payment has been made yet.",
+            "title": "Preparing"
+        },
+        "Cancelled": {
+            "description": "Your order has been canceled. If this happened in error, please contact us!",
+            "title": "Cancelled"
+        },
+        "Closed": {
+            "description": "The order is complete and has now been closed. Thank you!",
+            "title": "Closed"
+        },
+        "Declined": {
+            "description": "The bank or payment system did not accept your payment. Please check your card details and try again.",
+            "title": "Rejected"
+        },
+        "Expired": {
+            "description": "Your order has expired. If you would like to reorder, please contact us!",
+            "title": "Time Out"
+        },
+        "FullyPaid": {
+            "description": "Your order has been successfully paid for! It is being prepared and will be delivered to you soon.",
+            "free": "Your order has been recorded",
+            "title": "Paid in Full"
+        },
+        "Funded": {
+            "description": "The funds for your order have been transferred. Everything is fine!",
+            "title": "Funded"
+        },
+        "PartiallyPaid": {
+            "description": "A partial payment has been received. You must pay the remaining amount to complete the order.",
+            "title": "Partially Paid"
+        },
+        "Refunded": {
+            "description": "Your payment has been successfully refunded. The amount will be credited to your account shortly.",
+            "title": "Returned"
+        },
+        "Refused": {
+            "description": "You did not choose to pay or your order was canceled after an unsuccessful attempt.",
+            "title": "Rejected"
+        },
+        "Rejected": {
+            "description": "Your order was not accepted by the payment provider. Please try another payment method.",
+            "title": "Rejected"
+        },
+        "Voided": {
+            "description": "Your payment has been completely canceled. If you have any other questions, please write to us!",
+            "title": "Payment Canceled"
+        },
+        "Pending": {
+            "title": "Pending",
+            "description": "Your order is in pending status. Please wait for the payment confirmation."
+        }
+    },
+    "notification": {
+        "title": "Notifications",
+        "refresh": "Refresh",
+        "loading": "Loading...",
+        "empty": "No notifications",
+        "all": "All notifications",
+        "openMenu": "Open notifications menu",
+        "close": "Close"
+    },
+    "deviceSupportAlert": {
+        "warning": "Warning",
+        "short": "Google Meet may not work properly on older devices or outdated browsers. Please ensure your device and browser are up to date.",
+        "title": "Google Meet device compatibility",
+        "points": [
+            "Android 6+ and iOS 15+ are recommended. Older versions may not run the app.",
+            "Use the latest version of Chrome, Firefox, Edge, or Safari.",
+            "On older Windows or MacOS versions where browsers cannot be updated, joining may fail."
+        ],
+        "actions": {
+            "readMore": "Read more",
+            "dismiss": "Dismiss",
+            "ok": "OK"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.primary-stepper {
+    .MuiStepLabel {
+        &-label {
+            color: rgba(255, 255, 255, 0.8);
+            &.Mui-active {
+                color: white;
+                font-weight: bold;
+            }
+
+            &.Mui-completed {
+                color: rgba(255, 255, 255);
+            }
+        }
+
+        &-iconContainer {
+            color: rgba(255, 255, 255, 0.7);
+
+            &.Mui-active {
+                color: white;
+                font-weight: bold;
+            }
+
+            &.Mui-completed svg {
+                color: white;
+            }
+        }
+
+        &-labelContainer{
+            span{
+                @apply md:text-base
+            }
+        }
+    }
+}
+
+
+.calendar-container {
+    font-family: Arial, sans-serif;
+}
+
+.disabled-day {
+    color: red !important;
+    pointer-events: none;
+    cursor: not-allowed !important;
+}
+
+.selected-day {
+    background-color: blue !important;
+    color: white !important;
+    border-radius: 50% !important;
+    display: inline-block;
+}
+
+.allowed-day {
+    color: black !important;
+}
