@@ -63,7 +63,7 @@ const ExpertDetailProfils = ({
       />
       <div className="relative px-6 pt-[60px] pb-6 bg-white/90 backdrop-blur-sm">
         <div className="absolute top-[-60px] w-[120px] h-[120px] rounded-full overflow-hidden border-4 border-white shadow sm:left-6 left-[calc(50%-60px)]">
-          <Image src={photoUrl ?? ""} alt={fullName || "photo"} width={200} height={200} className="w-full h-full" />
+          <Image src={photoUrl ?? ""} alt={fullName || "photo"} width={200} height={200} quality={90} className="w-full h-full" />
         </div>
 
         <div className="pl-[10px]">

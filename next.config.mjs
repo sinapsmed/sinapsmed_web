@@ -13,6 +13,14 @@ const nextConfig = {
         pathname: '/**',
       },
       {
+        // Expert and gallery uploads are served directly from this S3 bucket.
+        // `next/image` rejects remote hosts that are not explicitly allow-listed.
+        protocol: 'https',
+        hostname: 'sinapsmed-storage.s3.us-east-1.amazonaws.com',
+        port: '',
+        pathname: '/images/**',
+      },
+      {
         protocol: 'https',
         hostname: 'lh3.googleusercontent.com',
         port: '',

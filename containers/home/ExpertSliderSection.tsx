@@ -80,7 +80,7 @@ const Slide = ({ data }: SlideProps) => {
         <div className='mx-5'>
             <Paper elevation={3} className='px-4 py-8 flex flex-col items-center text-center my-4'>
                 <div className='profile relative size-[150px] bg-[#00000005] rounded-full'>
-                    <Image alt={data.fullName} src={data.photoUrl} fill className='object-center object-cover rounded-full' />
+                    <Image alt={data.fullName} src={data.photoUrl} fill quality={90} className='object-center object-cover rounded-full' />
                 </div>
                 <Link href={`/experts/${data.seoUrl}/details?id=${data.id}`} className='text-lg font-bold mt-4 mb-1.5'>{data.fullName}</Link>
                 <p className='text-sm text-neutral-700 italic mb-4'>

@@ -55,6 +55,7 @@ const ExpertGalleryTab = ({ galleries }: { galleries: GalleryItem[] }) => {
                   src={item.url}
                   alt=""
                   fill
+                  quality={90}
                   className="object-cover group-hover:scale-125 transition-all"
                 />
               ) : (
@@ -87,6 +88,7 @@ const ExpertGalleryTab = ({ galleries }: { galleries: GalleryItem[] }) => {
                   src={galleries[openIndex].url}
                   alt=""
                   fill
+                  quality={90}
                   className="object-contain object-center"
                 />
               ) : (

@@ -50,7 +50,7 @@ const ExpertCard = ({ data, service ,key}: ExpertProps) => {
         <div className='flex flex-col md:flex-row md:min-h-[300px] bg-stone-100 text-center md:text-left'>
             <Link href={detaileUrl} className='image-box w-full md:w-1/3 relative h-[250px] md:h-auto '>
                 <div className='absolute h-1/5 md:h-full w-full md:bottom-0 top-0 left-0 md:w-1/2 bg-blue-600' />
-                <Image alt={data.fullName} src={data.photoUrl} fill className='object-center object-contain p-5' />
+                <Image alt={data.fullName} src={data.photoUrl} fill quality={90} className='object-center object-contain p-5' />
             </Link>
             <div className='flex items-center md:items-baseline flex-col text-box w-full md:w-2/3 pb-6 px-4 md:py-6 space-y-5'>
                 <div>
